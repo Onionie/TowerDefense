@@ -15,11 +15,11 @@ C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55923
+56780
 Successfully changed project path to: C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 74.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,578 +35,465 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004152 seconds.
+Registered in 0.003233 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.879 seconds
+- Completed reload, in  1.586 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001657 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
+Registered in 0.001363 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 69.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.277 seconds
+- Completed reload, in  1.484 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1898 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2334.
-Total: 2.802800 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.095300 ms  DeleteObjects: 0.166500 ms)
-
-========================================================================
-Received Import Request.
-  path: Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef
-  artifactKey: Guid(f45bd47c8cd6c8f4b830d7ddcb172032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef using Guid(f45bd47c8cd6c8f4b830d7ddcb172032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacd253fbff7fffef520094bc3788b35') in 0.071453 seconds
-  Import took 0.075943 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002444 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
 Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
 
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.407 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2325.
-Total: 2.695300 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.129500 ms MarkObjects: 2.169400 ms  DeleteObjects: 0.143600 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 3.181700 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.211400 ms MarkObjects: 2.460100 ms  DeleteObjects: 0.168500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 306.100348 seconds.
-  path: Assets/Tilemap/BrushRock.asset
-  artifactKey: Guid(038005cacff0f8e4b8b88690ffc43a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/BrushRock.asset using Guid(038005cacff0f8e4b8b88690ffc43a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061a3e986007dca9639cef31478f4209') in 0.037129 seconds
-  Import took 0.045399 seconds .
+  path: Assets/Animation/DamageText.anim
+  artifactKey: Guid(ed7932d0c51276d4499550246c41e9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/DamageText.anim using Guid(ed7932d0c51276d4499550246c41e9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70b7bf2022a15e9e819ff871ddd5495') in 0.202051 seconds
+  Import took 0.238698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 203.076468 seconds.
-  path: Assets/Prefabs/Rock1.prefab
-  artifactKey: Guid(4993ea52f6bcc65458c50d85d8cb1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rock1.prefab using Guid(4993ea52f6bcc65458c50d85d8cb1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002f3a3fc32bc89add51cc649d1809f6') in 0.304996 seconds
-  Import took 0.313525 seconds .
+  Time since last request: 0.000888 seconds.
+  path: Assets/Animation/Enemies/Dino_Idle.anim
+  artifactKey: Guid(62c36ac977daeb947bcafcd323a35814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Dino_Idle.anim using Guid(62c36ac977daeb947bcafcd323a35814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17c7e3dea968b38e313b6cad3c47497') in 0.022726 seconds
+  Import took 0.036057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.641593 seconds.
-  path: Assets/Prefabs/Rock2.prefab
-  artifactKey: Guid(e595e491251c1d14c934ece9ee61817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rock2.prefab using Guid(e595e491251c1d14c934ece9ee61817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f100195002c7655de159c1a46edfca') in 0.044715 seconds
-  Import took 0.053286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024722 seconds.
-  path: Assets/Prefabs/Rock2.prefab
-  artifactKey: Guid(e595e491251c1d14c934ece9ee61817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rock2.prefab using Guid(e595e491251c1d14c934ece9ee61817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f100195002c7655de159c1a46edfca') in 0.024515 seconds
-  Import took 0.037971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.862408 seconds.
-  path: Assets/Prefabs/Rock3.prefab
-  artifactKey: Guid(0b4ae0fd0cd181e42ae2d4857191c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rock3.prefab using Guid(0b4ae0fd0cd181e42ae2d4857191c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ecfa962558b1d6479d61d289dfb76f') in 0.035931 seconds
-  Import took 0.044879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020485 seconds.
-  path: Assets/Prefabs/Rock3.prefab
-  artifactKey: Guid(0b4ae0fd0cd181e42ae2d4857191c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rock3.prefab using Guid(0b4ae0fd0cd181e42ae2d4857191c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ecfa962558b1d6479d61d289dfb76f') in 0.090753 seconds
-  Import took 0.103845 seconds .
+  Time since last request: 116.393843 seconds.
+  path: Assets/Animation/Enemies/cDino.controller
+  artifactKey: Guid(cd7047dc2b24c0b45b99e3065c417200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/cDino.controller using Guid(cd7047dc2b24c0b45b99e3065c417200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f10ed91d7e439a52531f04bb933ed1e') in 0.040587 seconds
+  Import took 0.080161 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008006 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
+Registered in 0.002985 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.344 seconds
+- Completed reload, in  1.493 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.7 MB.
-System memory in use after: 91.7 MB.
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
-Total: 6.697000 ms (FindLiveObjects: 0.676200 ms CreateObjectMapping: 0.251800 ms MarkObjects: 4.819600 ms  DeleteObjects: 0.941900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 3.355000 ms (FindLiveObjects: 0.497700 ms CreateObjectMapping: 0.255000 ms MarkObjects: 2.444600 ms  DeleteObjects: 0.154900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001500 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
+Registered in 0.002381 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2311.
+Total: 2.913100 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.445100 ms  DeleteObjects: 0.161100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.566 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 4.203200 ms (FindLiveObjects: 0.418500 ms CreateObjectMapping: 0.229700 ms MarkObjects: 3.356500 ms  DeleteObjects: 0.196800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 2.635600 ms (FindLiveObjects: 0.242000 ms CreateObjectMapping: 0.118600 ms MarkObjects: 2.135100 ms  DeleteObjects: 0.138500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.643 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.625 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.9 MB.
-System memory in use after: 91.9 MB.
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2338.
-Total: 3.878000 ms (FindLiveObjects: 0.322800 ms CreateObjectMapping: 0.111800 ms MarkObjects: 3.252200 ms  DeleteObjects: 0.189000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 3.186700 ms (FindLiveObjects: 0.351800 ms CreateObjectMapping: 0.229100 ms MarkObjects: 2.464200 ms  DeleteObjects: 0.140200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002198 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Registered in 0.001913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
 
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 9.483700 ms (FindLiveObjects: 1.019100 ms CreateObjectMapping: 0.389400 ms MarkObjects: 7.371300 ms  DeleteObjects: 0.696100 ms)
 
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+========================================================================
+Received Import Request.
+  Time since last request: 1203.895254 seconds.
+  path: Assets/Prefabs/Jack.prefab
+  artifactKey: Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jack.prefab using Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af35dfbfde8f82566f06aa26044951a6') in 0.451234 seconds
+  Import took 0.457616 seconds .
 
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+========================================================================
+Received Import Request.
+  Time since last request: 21.488617 seconds.
+  path: Assets/Prefabs/Jack.prefab
+  artifactKey: Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jack.prefab using Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47edeb527a852d11efc9b09e578627b5') in 0.051672 seconds
+  Import took 0.058073 seconds .
 
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+========================================================================
+Received Import Request.
+  Time since last request: 3.262116 seconds.
+  path: Assets/Prefabs/Jack.prefab
+  artifactKey: Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jack.prefab using Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03ecbbbdfb134b48a4ce2ae6a0b6f6') in 0.052532 seconds
+  Import took 0.058488 seconds .
 
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.3 MB.
 
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 2.809000 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.097400 ms MarkObjects: 2.337500 ms  DeleteObjects: 0.153100 ms)
 
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002661 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.620 seconds
+- Completed reload, in  1.698 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.1 MB.
+System memory in use before: 92.5 MB.
+System memory in use after: 92.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2341.
-Total: 3.275500 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.122400 ms MarkObjects: 2.635300 ms  DeleteObjects: 0.161800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 3.800200 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.115800 ms MarkObjects: 3.158000 ms  DeleteObjects: 0.184700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001653 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
+Registered in 0.001813 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.513 seconds
+- Completed reload, in  1.496 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2344.
-Total: 3.114500 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.187000 ms MarkObjects: 2.475500 ms  DeleteObjects: 0.165600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008196 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.990 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.6 MB.
 System memory in use after: 92.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 3.216800 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.194300 ms MarkObjects: 2.524900 ms  DeleteObjects: 0.147000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 2.948000 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.180200 ms MarkObjects: 2.329900 ms  DeleteObjects: 0.145200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 673.122921 seconds.
-  path: Assets/Scripts/EnemyHealth.cs
-  artifactKey: Guid(cea6bff0e8d149e4a973b4f697eeb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyHealth.cs using Guid(cea6bff0e8d149e4a973b4f697eeb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c465e9f63bc432f0eb0572edb42b449b') in 0.057669 seconds
-  Import took 0.063585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005704 seconds.
-  path: Assets/Scripts/EnemyHealth.cs
-  artifactKey: Guid(cea6bff0e8d149e4a973b4f697eeb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyHealth.cs using Guid(cea6bff0e8d149e4a973b4f697eeb68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c465e9f63bc432f0eb0572edb42b449b') in 0.006722 seconds
-  Import took 0.014846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.872439 seconds.
-  path: Assets/Scripts/EnemyHealthBar.cs
-  artifactKey: Guid(163da4a69d7175a4e87eac7eb1f5fdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyHealthBar.cs using Guid(163da4a69d7175a4e87eac7eb1f5fdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0c365510284c3791ab5ea69c569f22') in 0.012688 seconds
-  Import took 0.017709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003958 seconds.
-  path: Assets/Scripts/EnemyHealthBar.cs
-  artifactKey: Guid(163da4a69d7175a4e87eac7eb1f5fdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyHealthBar.cs using Guid(163da4a69d7175a4e87eac7eb1f5fdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0c365510284c3791ab5ea69c569f22') in 0.006731 seconds
-  Import took 0.013952 seconds .
+  Time since last request: 132.330575 seconds.
+  path: Assets/Prefabs/Jack.prefab
+  artifactKey: Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jack.prefab using Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37658f64a945302aef07e09a54820a6') in 0.101153 seconds
+  Import took 0.107419 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001511 seconds.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
+Registered in 0.001530 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/2D Tilemap Extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/2D Tilemap Extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
-Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/2D Tilemap Extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
-
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  1.643 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.8 MB.
-System memory in use after: 92.8 MB.
+System memory in use before: 91.9 MB.
+System memory in use after: 91.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2350.
-Total: 4.800300 ms (FindLiveObjects: 0.613900 ms CreateObjectMapping: 0.262700 ms MarkObjects: 3.771200 ms  DeleteObjects: 0.148500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 3.214100 ms (FindLiveObjects: 0.466200 ms CreateObjectMapping: 0.235000 ms MarkObjects: 2.369900 ms  DeleteObjects: 0.141200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.1 MB.
+System memory in use after: 92.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 3.333400 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.595600 ms  DeleteObjects: 0.155600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.4 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 3.467200 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.204000 ms MarkObjects: 2.763900 ms  DeleteObjects: 0.156000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.605 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 3.410300 ms (FindLiveObjects: 0.553100 ms CreateObjectMapping: 0.236500 ms MarkObjects: 2.446400 ms  DeleteObjects: 0.172300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 3.190500 ms (FindLiveObjects: 0.349100 ms CreateObjectMapping: 0.239100 ms MarkObjects: 2.445800 ms  DeleteObjects: 0.154800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.594 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.0 MB.
+System memory in use after: 92.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 2.757700 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.109500 ms MarkObjects: 2.174000 ms  DeleteObjects: 0.148600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 3.059500 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.205500 ms MarkObjects: 2.361500 ms  DeleteObjects: 0.152200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

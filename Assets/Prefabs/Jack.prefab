@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8909231596483757756}
   m_Layer: 0
-  m_Name: DamageTextPos (1)
+  m_Name: DamageTextPos
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2764133729868198465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.01, y: -2, z: 0}
+  m_LocalPosition: {x: -1.18, y: -1.09, z: 0}
   m_LocalScale: {x: 0.9383922, y: 0.9168459, z: 0.53507125}
   m_Children: []
   m_Father: {fileID: 5104591615858345790}
@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 67482219}
   - component: {fileID: 8084933442443947199}
   - component: {fileID: 2036737295913687903}
+  - component: {fileID: 791336895749629556}
   m_Layer: 0
   m_Name: Jack
   m_TagString: Enemy
@@ -62,7 +63,7 @@ Transform:
   m_GameObject: {fileID: 5104591615858345731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.26, y: -1.03, z: 0}
-  m_LocalScale: {x: 0.39588988, y: 0.40519348, z: 0.6943}
+  m_LocalScale: {x: 0.2677403, y: 0.27403235, z: 0.46955508}
   m_Children:
   - {fileID: 8913633028954390158}
   - {fileID: 8909231596483757756}
@@ -227,6 +228,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.9910393, y: 6.9378004}
   m_EdgeRadius: 0
+--- !u!114 &791336895749629556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5104591615858345731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59347fba1a2929044a40493acd1bcef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDamageSpawnPosition: {fileID: 8909231596483757756}
 --- !u!1 &5294091313412365750
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8913633028954390158}
   m_Layer: 0
-  m_Name: BarPos (1)
+  m_Name: BarPos
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

@@ -1,0 +1,307 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.804; Version 2004; 64bit' Language: 'en' Physical Memory: 7944 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55143
+Successfully changed project path to: C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 89.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   
+    VRAM:     2048 MB
+    Driver:   20.19.15.4642
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002447 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.646 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.502 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 86.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 3.961600 ms (FindLiveObjects: 0.483200 ms CreateObjectMapping: 0.247800 ms MarkObjects: 2.974500 ms  DeleteObjects: 0.253800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile006.png
+  artifactKey: Guid(41eb7d2e5649b3347a8c135385adc3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile006.png using Guid(41eb7d2e5649b3347a8c135385adc3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81aecbada979644e3b84840cf012daa') in 0.722354 seconds
+  Import took 0.755472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015970 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile008.png
+  artifactKey: Guid(ced562f52d581f446a4c46d3b8fad833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile008.png using Guid(ced562f52d581f446a4c46d3b8fad833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beea04315412d1b91774ca565577d45') in 0.391368 seconds
+  Import took 0.463672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile023.png
+  artifactKey: Guid(6e5b3b90809a9ca49979a20746165b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile023.png using Guid(6e5b3b90809a9ca49979a20746165b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab9748a93caf0d81369b24a4984182b') in 0.079334 seconds
+  Import took 0.116881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile009.png
+  artifactKey: Guid(6d7b6c570a264354593a9b8985712d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile009.png using Guid(6d7b6c570a264354593a9b8985712d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd2ad8752a932432b018ca04da4bcd5') in 0.127846 seconds
+  Import took 0.158786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile010.png
+  artifactKey: Guid(899ad14891050d14782a8ff3d0fb4469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile010.png using Guid(899ad14891050d14782a8ff3d0fb4469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddafa16e7eef31e8c4432be53dae693') in 0.087416 seconds
+  Import took 0.129075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile017.png
+  artifactKey: Guid(119bf4dac78032841b736fe2785a12b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile017.png using Guid(119bf4dac78032841b736fe2785a12b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15af7f0011ebe0a8a7fa199668f9384') in 0.103718 seconds
+  Import took 0.131136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile018.png
+  artifactKey: Guid(50a652b10d643614ebfa35ec518c8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile018.png using Guid(50a652b10d643614ebfa35ec518c8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711be054c7201109a2454e38e8b3c3ad') in 0.128332 seconds
+  Import took 0.159045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile014.png
+  artifactKey: Guid(12fc475ec095bf94ba266599a770591b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile014.png using Guid(12fc475ec095bf94ba266599a770591b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2ff580dc66f13de856d9174a9a5538') in 0.083665 seconds
+  Import took 0.099270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile015.png
+  artifactKey: Guid(e08045f1dcfe5004f8bdad4fb0e40338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile015.png using Guid(e08045f1dcfe5004f8bdad4fb0e40338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a90cca0508c8edc812d398310d8917') in 0.081528 seconds
+  Import took 0.094644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile012.png
+  artifactKey: Guid(78a21adc0d836214cb9fe6d232361b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile012.png using Guid(78a21adc0d836214cb9fe6d232361b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb440e94858d59babdcb1e8031cbecb') in 0.075956 seconds
+  Import took 0.098950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile011.png
+  artifactKey: Guid(3d7623518a4de444ba21574e1afaa368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile011.png using Guid(3d7623518a4de444ba21574e1afaa368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c9888b475fd1bc9ee9b6a3f9d6f553') in 0.113689 seconds
+  Import took 0.129195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile016.png
+  artifactKey: Guid(5579ca9b6a42ec849b4908d94e4c72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile016.png using Guid(5579ca9b6a42ec849b4908d94e4c72af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b35eccfd2614ab5b0d198444ece956f') in 0.088631 seconds
+  Import took 0.126314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile020.png
+  artifactKey: Guid(c64e0af999a8c55448eadbb5165f2764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile020.png using Guid(c64e0af999a8c55448eadbb5165f2764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac54ac50797c743b44d4b4f3191f7d') in 0.089452 seconds
+  Import took 0.126125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile013.png
+  artifactKey: Guid(1a3b32f1df04e4c4fa704d390cbd0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile013.png using Guid(1a3b32f1df04e4c4fa704d390cbd0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6acdbb0cb1e30bade642915ece4576') in 0.166945 seconds
+  Import took 0.172815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile019.png
+  artifactKey: Guid(b144e910082699049935ceaff566361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile019.png using Guid(b144e910082699049935ceaff566361d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9284999c1cd6603508ec9e3d710b56c') in 0.096548 seconds
+  Import took 0.108667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile024.png
+  artifactKey: Guid(060e1cd47b7ac8847a5c93c138ae47b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile024.png using Guid(060e1cd47b7ac8847a5c93c138ae47b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f79b1a70009354692ebb495f6d612e') in 0.159565 seconds
+  Import took 0.177904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile021.png
+  artifactKey: Guid(8a602358c3047f249b2bbebe6f972c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile021.png using Guid(8a602358c3047f249b2bbebe6f972c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490eaebd35f6c21f30ac74e4c6bd7a5d') in 0.077546 seconds
+  Import took 0.138106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile022.png
+  artifactKey: Guid(d4abc6a97b279df4ba8f359fde6cf53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile022.png using Guid(d4abc6a97b279df4ba8f359fde6cf53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0920945971b1d43dc9f21428a7184f') in 0.077795 seconds
+  Import took 0.102181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile007.png
+  artifactKey: Guid(ee02eb1183d91be41a03428fd38cca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile007.png using Guid(ee02eb1183d91be41a03428fd38cca24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c99885eea19355619a40d2f87d6f994') in 0.093475 seconds
+  Import took 0.179626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.507137 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile050.png
+  artifactKey: Guid(40f3b0e78e57f5047881f17910d81878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile050.png using Guid(40f3b0e78e57f5047881f17910d81878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbb0eae58e164f1e123b4c8d1e1496f') in 0.102122 seconds
+  Import took 0.106968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 541.821203 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile192.png
+  artifactKey: Guid(e1ff908bb3f04284fa66918aaf371d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile192.png using Guid(e1ff908bb3f04284fa66918aaf371d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2381439cac3bb49ee98e2e1faf66bf') in 0.045463 seconds
+  Import took 0.096800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.883767 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile095.png
+  artifactKey: Guid(83c7891d9ba9da74ea1bb62cd336edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile095.png using Guid(83c7891d9ba9da74ea1bb62cd336edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d71ae90e65b343cc27ebe500c57fd75') in 0.032155 seconds
+  Import took 0.063055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.487521 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile095.png
+  artifactKey: Guid(83c7891d9ba9da74ea1bb62cd336edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile095.png using Guid(83c7891d9ba9da74ea1bb62cd336edd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e5efe422475cc3a7dab1b56a9ed599') in 0.018693 seconds
+  Import took 0.051400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile072.png
+  artifactKey: Guid(b1fbfecaf9ad6484c87ed2a49d9c46e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile072.png using Guid(b1fbfecaf9ad6484c87ed2a49d9c46e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b169997de22db719d215d97dfc18389') in 0.045913 seconds
+  Import took 0.073541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile096.png
+  artifactKey: Guid(ee0b49529e48630478507e038120fa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile096.png using Guid(ee0b49529e48630478507e038120fa40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f0ac814edc47f1bb281ec329e9eaaf') in 0.050946 seconds
+  Import took 0.056788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.841307 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile073.png
+  artifactKey: Guid(69a67e5df1626be4480ccae0d80861fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile073.png using Guid(69a67e5df1626be4480ccae0d80861fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfaf5035bdb4c278e93e0c95a4f1320') in 0.025739 seconds
+  Import took 0.031114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003477 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile073.png
+  artifactKey: Guid(69a67e5df1626be4480ccae0d80861fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile073.png using Guid(69a67e5df1626be4480ccae0d80861fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfaf5035bdb4c278e93e0c95a4f1320') in 0.015446 seconds
+  Import took 0.021777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.290075 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile093.png
+  artifactKey: Guid(47d844cbfea02354e92d9cf2054b8136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile093.png using Guid(47d844cbfea02354e92d9cf2054b8136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c76902844af17d93dce56f608854f44') in 0.033616 seconds
+  Import took 0.045049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.743839 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile130.png
+  artifactKey: Guid(081eccdd653da2f4983a1c4be9171b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile130.png using Guid(081eccdd653da2f4983a1c4be9171b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273727b7d8e0a9cce22335f9a22b8bae') in 0.031046 seconds
+  Import took 0.057426 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

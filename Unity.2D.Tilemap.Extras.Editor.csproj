@@ -57,26 +57,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\PrefabRandomBrush\PrefabRandomBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\BasePrefabBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\RandomBrush\RandomBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\GroupBrush\GroupBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Menu\CustomRuleTileMenu.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\PrefabBrush\PrefabBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Menu\MenuItemOrder.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\BrushMenuItem.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\TintBrush\TintBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\Menu\TerrainTileMenu.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\LineBrush\LineBrush.cs" />
-    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\Menu\RandomTileMenu.cs" />
     <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\Menu\PipelineTileMenu.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Menu\CustomRuleTileMenu.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\PrefabRandomBrush\PrefabRandomBrush.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\PrefabBrush\PrefabBrush.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\RandomBrush\RandomBrush.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\BrushMenuItem.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\Menu\TerrainTileMenu.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\GroupBrush\GroupBrush.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\PrefabBrushes\BasePrefabBrush.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Menu\MenuItemOrder.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\TintBrush\TintBrush.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\Menu\RandomTileMenu.cs" />
+    <Compile Include="Assets\2D Tilemap Extras\Editor\Brushes\LineBrush\LineBrush.cs" />
     <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
     <Compile Include="Assets\2D Tilemap Extras\Editor\Tiles\Menu\WeightedRandomTileMenu.cs" />
   </ItemGroup>

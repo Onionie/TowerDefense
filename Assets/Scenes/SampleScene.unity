@@ -295,7 +295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &60659779
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -340,6 +340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPos: {fileID: 1598954847}
   delayBtwAttacks: 0.2
+  damage: 2
   isDualMachine: 0
   spreadRange: 0
 --- !u!114 &60659782
@@ -383,6 +384,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b78be5ff583124cb7ffa225508fcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeInitialCost: 0
+  upgradeCostIncremental: 0
+  damageIncremental: 0
+  delayReduce: 0
 --- !u!4 &60964165 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8569599277111243288, guid: 4993ea52f6bcc65458c50d85d8cb1099, type: 3}
@@ -2716,6 +2721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPos: {fileID: 1895801153}
   delayBtwAttacks: 2
+  damage: 2
 --- !u!114 &484510723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2757,6 +2763,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b78be5ff583124cb7ffa225508fcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeInitialCost: 0
+  upgradeCostIncremental: 0
+  damageIncremental: 0
+  delayReduce: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3633,6 +3643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPos: {fileID: 2094801627}
   delayBtwAttacks: 2
+  damage: 2
 --- !u!114 &1092081866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3645,6 +3656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b78be5ff583124cb7ffa225508fcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeInitialCost: 0
+  upgradeCostIncremental: 0
+  damageIncremental: 0
+  delayReduce: 0
 --- !u!1 &1099317891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4160,7 +4175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &1609210613
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4203,6 +4218,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b78be5ff583124cb7ffa225508fcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeInitialCost: 0
+  upgradeCostIncremental: 0
+  damageIncremental: 0
+  delayReduce: 0
 --- !u!114 &1609210616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4246,6 +4265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPos: {fileID: 1611997138}
   delayBtwAttacks: 0.2
+  damage: 2
   isDualMachine: 1
   spreadRange: 10
 --- !u!1 &1611997137
@@ -4866,7 +4886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &1920376739
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4911,6 +4931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPos: {fileID: 179554884}
   delayBtwAttacks: 0.5
+  damage: 2
 --- !u!114 &1920376742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4952,6 +4973,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b78be5ff583124cb7ffa225508fcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeInitialCost: 0
+  upgradeCostIncremental: 0
+  damageIncremental: 0
+  delayReduce: 0
 --- !u!1 &1962998200
 GameObject:
   m_ObjectHideFlags: 0
@@ -4993,6 +5018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1969392074}
+  - component: {fileID: 1969392075}
   m_Layer: 0
   m_Name: CurrencyManager
   m_TagString: Untagged
@@ -5014,6 +5040,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1969392075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969392073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052cec2448bc47f4c95b59e03bf3c7f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinTest: 500
 --- !u!1 &2003096861
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,6 +5487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPos: {fileID: 759904454}
   delayBtwAttacks: 2
+  damage: 2
 --- !u!114 &2138451795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5489,3 +5529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b78be5ff583124cb7ffa225508fcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeInitialCost: 0
+  upgradeCostIncremental: 0
+  damageIncremental: 0
+  delayReduce: 0

@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MachineProjectile.cs" />
     <Compile Include="Assets\Scripts\TankTurretProjectile.cs" />
+    <Compile Include="Assets\Scripts\TurretUpgrade.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

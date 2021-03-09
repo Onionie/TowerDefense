@@ -7,7 +7,10 @@ public class TurretProjectile : MonoBehaviour
 {
     [SerializeField] protected Transform projectileSpawnPos;
     [SerializeField] protected float delayBtwAttacks = 2f;
+    [SerializeField] protected float damage = 2f;
 
+    public float Damage { get; set; }
+    public float DelayPerShot { get; set; }
 
 
     protected float _nextAttackTime;
@@ -20,6 +23,8 @@ public class TurretProjectile : MonoBehaviour
         turret = GetComponent<Turret>();
         pooler = GetComponent<ObjectPooler>();
 
+        Damage = damage;
+        DelayPerShot = delayBtwAttacks;
         LoadProjectile();
 
     }
@@ -41,7 +46,7 @@ public class TurretProjectile : MonoBehaviour
                 currentProjectileLoaded.SetEnemy(turret.CurrentEnemyTarget);
             }
 
-            _nextAttackTime = Time.time + delayBtwAttacks;
+            _nextAttackTime = Time.time + DelayPerShot;
         }
 
 
@@ -56,6 +61,7 @@ public class TurretProjectile : MonoBehaviour
         currentProjectileLoaded = newInstance.GetComponent<Projectiles>();
         currentProjectileLoaded.TurretOwner = this;
         currentProjectileLoaded.ResetProjectile();
+        currentProjectileLoaded.Damage = Damage;
         newInstance.SetActive(true);
 
     }

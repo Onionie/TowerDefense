@@ -1,0 +1,187 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.804; Version 2004; 64bit' Language: 'en' Physical Memory: 7944 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53056
+Successfully changed project path to: C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 114.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   
+    VRAM:     2048 MB
+    Driver:   20.19.15.4642
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002459 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.457 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 3.595300 ms (FindLiveObjects: 0.322200 ms CreateObjectMapping: 0.211300 ms MarkObjects: 2.882200 ms  DeleteObjects: 0.177900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tilemap/BrushRock.asset
+  artifactKey: Guid(038005cacff0f8e4b8b88690ffc43a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/BrushRock.asset using Guid(038005cacff0f8e4b8b88690ffc43a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856b3fa1d2a8d9615bcd3c01941fd5ca') in 0.158753 seconds
+  Import took 0.220616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Tilemap/towerDefense_tile049.asset
+  artifactKey: Guid(3f829ef0677b36b42aae56ff30889237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/towerDefense_tile049.asset using Guid(3f829ef0677b36b42aae56ff30889237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03d421dcb91a0f1ea55ac646b79bdd3') in 0.203908 seconds
+  Import took 0.220030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tilemap/towerDefense_tile055.asset
+  artifactKey: Guid(e36957db11eb33b4cba860c7211633d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/towerDefense_tile055.asset using Guid(e36957db11eb33b4cba860c7211633d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1224b7c37046cd36365bfeb0b2e0779f') in 0.018302 seconds
+  Import took 0.047063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tilemap/Map.prefab
+  artifactKey: Guid(0a635a65ba676e147bd4664ba51d8f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Map.prefab using Guid(0a635a65ba676e147bd4664ba51d8f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e2795f0655b9a94a6980ea9dc3ce5a') in 0.017996 seconds
+  Import took 0.033057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.326867 seconds.
+  path: Assets/Tilemap/BrushRock.asset
+  artifactKey: Guid(038005cacff0f8e4b8b88690ffc43a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/BrushRock.asset using Guid(038005cacff0f8e4b8b88690ffc43a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856b3fa1d2a8d9615bcd3c01941fd5ca') in 0.008786 seconds
+  Import took 0.014015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.825948 seconds.
+  path: Assets/Tilemap/BrushTrees.asset
+  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d4cf8e81e3de0e6d2d1d3943f53cec') in 0.012697 seconds
+  Import took 0.039727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041904 seconds.
+  path: Assets/Tilemap/BrushTrees.asset
+  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d4cf8e81e3de0e6d2d1d3943f53cec') in 0.007360 seconds
+  Import took 0.032032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.513904 seconds.
+  path: Assets/Prefabs/Brushes
+  artifactKey: Guid(1cc789dcc8a9bea4eaa182e129cef9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brushes using Guid(1cc789dcc8a9bea4eaa182e129cef9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4fb2fb4b30a7cb6146f55bed228c90') in 0.023058 seconds
+  Import took 0.053407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.024589 seconds.
+  path: Assets/Prefabs/Brushes/towerDefense_tile134.prefab
+  artifactKey: Guid(85c57efeff25f204883e151957a8d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brushes/towerDefense_tile134.prefab using Guid(85c57efeff25f204883e151957a8d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31629f6aa62f70081a6767605f6c4ef4') in 0.068430 seconds
+  Import took 0.091634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.433667 seconds.
+  path: Assets/Prefabs/Brushes/towerDefense_tile130.prefab
+  artifactKey: Guid(c828d7dd2a93fb3478570e5faa280ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brushes/towerDefense_tile130.prefab using Guid(c828d7dd2a93fb3478570e5faa280ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2983926bcaf6f96d09e5f09259c689') in 0.043153 seconds
+  Import took 0.063759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004516 seconds.
+  path: Assets/Prefabs/Brushes/towerDefense_tile130.prefab
+  artifactKey: Guid(c828d7dd2a93fb3478570e5faa280ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brushes/towerDefense_tile130.prefab using Guid(c828d7dd2a93fb3478570e5faa280ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2983926bcaf6f96d09e5f09259c689') in 0.031902 seconds
+  Import took 0.045415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.824814 seconds.
+  path: Assets/Prefabs/Brushes/towerDefense_tile132.prefab
+  artifactKey: Guid(894b64feef01a02468eebe7661f60d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brushes/towerDefense_tile132.prefab using Guid(894b64feef01a02468eebe7661f60d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e04c1670754401011b38d056b0cc3c2') in 0.037370 seconds
+  Import took 0.048044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014841 seconds.
+  path: Assets/Prefabs/Brushes/towerDefense_tile132.prefab
+  artifactKey: Guid(894b64feef01a02468eebe7661f60d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brushes/towerDefense_tile132.prefab using Guid(894b64feef01a02468eebe7661f60d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e04c1670754401011b38d056b0cc3c2') in 0.028514 seconds
+  Import took 0.035862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.472855 seconds.
+  path: Assets/Tilemap/BrushTrees.asset
+  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8e8d18cd93d885b959a6400d584fed') in 0.041859 seconds
+  Import took 0.079363 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

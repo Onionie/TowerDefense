@@ -30,6 +30,7 @@ public class MachineTurretProjectile : TurretProjectile
 
         MachineProjectile projectile = instance.GetComponent<MachineProjectile>();
         projectile.Direction = direction;
+        projectile.Damage = Damage;
 
         if (isDualMachine)
         {

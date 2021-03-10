@@ -15,11 +15,11 @@ C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53516
+54684
 Successfully changed project path to: C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 131.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 272.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,527 +35,937 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003600 seconds.
+Registered in 0.002533 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 123.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.655 seconds
+- Completed reload, in  2.991 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001459 seconds.
+Registered in 0.001922 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.626 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.7 MB.
+Unloading 1864 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2307.
-Total: 3.147600 ms (FindLiveObjects: 0.444300 ms CreateObjectMapping: 0.224200 ms MarkObjects: 2.312900 ms  DeleteObjects: 0.164500 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 6.379700 ms (FindLiveObjects: 0.610200 ms CreateObjectMapping: 0.300300 ms MarkObjects: 5.284400 ms  DeleteObjects: 0.182200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Brushes/towerDefense_tile134.prefab
-  artifactKey: Guid(85c57efeff25f204883e151957a8d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brushes/towerDefense_tile134.prefab using Guid(85c57efeff25f204883e151957a8d3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09579f983c10cd01573eefb63e6c1d8') in 0.134684 seconds
-  Import took 0.139234 seconds .
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile227.png
+  artifactKey: Guid(702ae0ca46a2f0243a4d4ef9749b23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/towerDefense_tile227.png using Guid(702ae0ca46a2f0243a4d4ef9749b23cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef2ca00bfbe118e426688c8a8ee58d3') in 0.434292 seconds
+  Import took 0.442465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.062196 seconds.
-  path: Assets/Tilemap/BrushTrees.asset
-  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3423431d3dc5b9e04390f5f3bf47808') in 0.019189 seconds
-  Import took 0.030363 seconds .
+  Time since last request: 124.155920 seconds.
+  path: Assets/Prefabs/SpawnEnemies/SpawnerDino.prefab
+  artifactKey: Guid(a37b902ba33ad6449b3743c8d7869d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnEnemies/SpawnerDino.prefab using Guid(a37b902ba33ad6449b3743c8d7869d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be00350a255872bb9fccb5e5d38641c') in 0.593271 seconds
+  Import took 0.601099 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006547 seconds.
-  path: Assets/Tilemap/BrushTrees.asset
-  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3423431d3dc5b9e04390f5f3bf47808') in 0.006581 seconds
-  Import took 0.012351 seconds .
+  Time since last request: 0.000334 seconds.
+  path: Assets/Prefabs/SpawnEnemies/SpawnerJack.prefab
+  artifactKey: Guid(d96c531a47264174d98e632c6aae027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnEnemies/SpawnerJack.prefab using Guid(d96c531a47264174d98e632c6aae027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da27cc1856535c2f9040f7f863770980') in 0.089244 seconds
+  Import took 0.096001 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 598.140399 seconds.
-  path: Assets/Tilemap/BrushTrees.asset
-  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba40f4089e82a032b8addb2e31a86be') in 0.026366 seconds
-  Import took 0.033583 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002371 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.502 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.9 MB.
-System memory in use after: 90.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 3.862000 ms (FindLiveObjects: 0.332000 ms CreateObjectMapping: 0.113700 ms MarkObjects: 3.209500 ms  DeleteObjects: 0.205000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001522 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.530 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.2 MB.
-System memory in use after: 91.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
-Total: 2.736600 ms (FindLiveObjects: 0.248700 ms CreateObjectMapping: 0.128500 ms MarkObjects: 2.221600 ms  DeleteObjects: 0.136500 ms)
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefabs/SpawnEnemies/SpawnerZF.prefab
+  artifactKey: Guid(24089a4732a6b3144863ddc96bbee9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnEnemies/SpawnerZF.prefab using Guid(24089a4732a6b3144863ddc96bbee9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38add52a8ba601e3c9fde6eabc233bef') in 0.082889 seconds
+  Import took 0.090134 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 140.101950 seconds.
-  path: Assets/Tilemap/BrushTrees.asset
-  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d82ad711e227e90493651cbd67fd80a') in 0.023436 seconds
-  Import took 0.028026 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002310 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
-Total: 3.425700 ms (FindLiveObjects: 0.337200 ms CreateObjectMapping: 0.215000 ms MarkObjects: 2.725200 ms  DeleteObjects: 0.146400 ms)
+  Time since last request: 0.000363 seconds.
+  path: Assets/Prefabs/SpawnEnemies/SpawnerMF.prefab
+  artifactKey: Guid(b1ff4e9c9ee19464d90c43fc751c5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnEnemies/SpawnerMF.prefab using Guid(b1ff4e9c9ee19464d90c43fc751c5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639cadcbf8288d7c4374c652d7ae4367') in 0.119039 seconds
+  Import took 0.126625 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 132.538981 seconds.
-  path: Assets/Prefabs/Enemies/Dino.prefab
-  artifactKey: Guid(ef5fc013eb68286408f04a5c7bc108e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Dino.prefab using Guid(ef5fc013eb68286408f04a5c7bc108e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2589a3743d5338a41e807ea0d58d41b') in 0.217307 seconds
-  Import took 0.222640 seconds .
+  Time since last request: 96.277316 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 1.asset
+  artifactKey: Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 1.asset using Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a782e313d3aa94b5c4dec05609f78b') in 0.044738 seconds
+  Import took 0.059317 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.782471 seconds.
-  path: Assets/Prefabs/Enemies/Jack.prefab
-  artifactKey: Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Jack.prefab using Guid(548a17301ba94b147a1bb8623e5ddb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8acfc09ab83d7234a304181a651a68') in 0.047928 seconds
-  Import took 0.054828 seconds .
+  Time since last request: 0.035254 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 1.asset
+  artifactKey: Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 1.asset using Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a782e313d3aa94b5c4dec05609f78b') in 0.020717 seconds
+  Import took 0.029501 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.066632 seconds.
-  path: Assets/Prefabs/Enemies/ZombieF.prefab
-  artifactKey: Guid(377e4395f80625c4a9540cab9db0678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/ZombieF.prefab using Guid(377e4395f80625c4a9540cab9db0678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6c2dd1ba2542d5544a61fc6897b4b1') in 0.084306 seconds
-  Import took 0.092044 seconds .
+  Time since last request: 0.468896 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 1.asset
+  artifactKey: Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 1.asset using Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172b904936b21ba0c618dc6a961ec1e') in 0.010229 seconds
+  Import took 0.019271 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.847586 seconds.
-  path: Assets/Prefabs/Enemies/ZombieM.prefab
-  artifactKey: Guid(f92de22973fb4e444aa92f1535efec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/ZombieM.prefab using Guid(f92de22973fb4e444aa92f1535efec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79861d9b42929542747de4babba4ff70') in 0.044822 seconds
-  Import took 0.051901 seconds .
+  Time since last request: 0.000706 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 2.asset
+  artifactKey: Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 2.asset using Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e217a82152c58bc80cdc1dc31c95ba') in 0.018498 seconds
+  Import took 0.024654 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008821 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.255 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.8 MB.
-System memory in use after: 91.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 3.870700 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.102900 ms MarkObjects: 3.321200 ms  DeleteObjects: 0.194800 ms)
+Received Import Request.
+  Time since last request: 0.015862 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 2.asset
+  artifactKey: Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 2.asset using Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e217a82152c58bc80cdc1dc31c95ba') in 0.014879 seconds
+  Import took 0.021877 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2330.
-Total: 6.422000 ms (FindLiveObjects: 0.506600 ms CreateObjectMapping: 0.151000 ms MarkObjects: 5.557700 ms  DeleteObjects: 0.203500 ms)
+Received Import Request.
+  Time since last request: 0.512146 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 2.asset
+  artifactKey: Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 2.asset using Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f577e0ebceb89304e8da0cf718e8d2') in 0.010722 seconds
+  Import took 0.016701 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002367 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.614 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.3 MB.
-System memory in use after: 92.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2333.
-Total: 3.579200 ms (FindLiveObjects: 0.450100 ms CreateObjectMapping: 0.259600 ms MarkObjects: 2.719900 ms  DeleteObjects: 0.147500 ms)
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 3.asset
+  artifactKey: Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 3.asset using Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d47f1cdc293b8fc8aff6e31c065933') in 0.021290 seconds
+  Import took 0.027617 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001431 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.05 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.528 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.5 MB.
-System memory in use after: 92.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2336.
-Total: 4.095800 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.117300 ms MarkObjects: 3.446400 ms  DeleteObjects: 0.200200 ms)
+Received Import Request.
+  Time since last request: 0.015178 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 3.asset
+  artifactKey: Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 3.asset using Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d47f1cdc293b8fc8aff6e31c065933') in 0.015866 seconds
+  Import took 0.022119 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001584 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.509 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.8 MB.
-System memory in use after: 92.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 3.218800 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.701900 ms  DeleteObjects: 0.147400 ms)
+Received Import Request.
+  Time since last request: 0.965600 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 3.asset
+  artifactKey: Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 3.asset using Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be9d36e3798a08dddfe6895e0ae71a') in 0.011830 seconds
+  Import took 0.018111 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002010 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.497 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 92.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2342.
-Total: 3.718900 ms (FindLiveObjects: 0.336400 ms CreateObjectMapping: 0.119800 ms MarkObjects: 3.095100 ms  DeleteObjects: 0.165500 ms)
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 4.asset
+  artifactKey: Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 4.asset using Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6429f6af991fc5dc8728383e6d6688') in 0.017113 seconds
+  Import took 0.021994 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002288 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.542 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2345.
-Total: 3.750900 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.102900 ms MarkObjects: 3.186500 ms  DeleteObjects: 0.198000 ms)
+Received Import Request.
+  Time since last request: 0.028365 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 4.asset
+  artifactKey: Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 4.asset using Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6429f6af991fc5dc8728383e6d6688') in 0.015932 seconds
+  Import took 0.022235 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001453 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.518 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2348.
-Total: 3.144000 ms (FindLiveObjects: 0.336800 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.536500 ms  DeleteObjects: 0.147600 ms)
+Received Import Request.
+  Time since last request: 13.909769 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 4.asset
+  artifactKey: Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 4.asset using Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49dc38fa53e765480bc229e1448bab6') in 0.026039 seconds
+  Import took 0.031765 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001503 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.475 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.6 MB.
-System memory in use after: 92.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 2.578500 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.092900 ms  DeleteObjects: 0.154400 ms)
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 5.asset
+  artifactKey: Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 5.asset using Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e847497ff9a0e62443b8ff4855da869') in 0.019631 seconds
+  Import took 0.025582 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001574 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.547 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.8 MB.
-System memory in use after: 92.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2354.
-Total: 3.476800 ms (FindLiveObjects: 0.330000 ms CreateObjectMapping: 0.111200 ms MarkObjects: 2.887400 ms  DeleteObjects: 0.146300 ms)
+Received Import Request.
+  Time since last request: 0.018468 seconds.
+  path: Assets/ScriptableObject/OneMissileTurr 5.asset
+  artifactKey: Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/OneMissileTurr 5.asset using Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e847497ff9a0e62443b8ff4855da869') in 0.021147 seconds
+  Import took 0.027743 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001679 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.484 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 92.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 3.230200 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.107000 ms MarkObjects: 2.713400 ms  DeleteObjects: 0.143900 ms)
+Received Import Request.
+  Time since last request: 39.015989 seconds.
+  path: Assets/ScriptableObject/TwoMissileTurr 2.asset
+  artifactKey: Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/TwoMissileTurr 2.asset using Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bffd4ab521cc66f9cc5e4660d227040') in 0.028423 seconds
+  Import took 0.037290 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001659 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.547 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.3 MB.
-System memory in use after: 92.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 3.613700 ms (FindLiveObjects: 0.280900 ms CreateObjectMapping: 0.127900 ms MarkObjects: 3.046900 ms  DeleteObjects: 0.155900 ms)
+Received Import Request.
+  Time since last request: 0.030095 seconds.
+  path: Assets/ScriptableObject/TwoMissileTurr 2.asset
+  artifactKey: Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/TwoMissileTurr 2.asset using Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bffd4ab521cc66f9cc5e4660d227040') in 0.018999 seconds
+  Import took 0.027885 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001488 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.525 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.5 MB.
-System memory in use after: 92.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
-Total: 3.517200 ms (FindLiveObjects: 0.496700 ms CreateObjectMapping: 0.228900 ms MarkObjects: 2.631400 ms  DeleteObjects: 0.158000 ms)
+Received Import Request.
+  Time since last request: 12.212101 seconds.
+  path: Assets/ScriptableObject/TwoMissileTurr.asset
+  artifactKey: Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/TwoMissileTurr.asset using Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a7e133f910c6dec453fbba282afaa5') in 0.023539 seconds
+  Import took 0.030442 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.508 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.7 MB.
-System memory in use after: 92.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2366.
-Total: 3.916900 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.117900 ms MarkObjects: 3.253500 ms  DeleteObjects: 0.203000 ms)
+Received Import Request.
+  Time since last request: 0.019075 seconds.
+  path: Assets/ScriptableObject/TwoMissileTurr.asset
+  artifactKey: Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/TwoMissileTurr.asset using Guid(16872241063ffc2429d2c5f76b8d3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a7e133f910c6dec453fbba282afaa5') in 0.020231 seconds
+  Import took 0.026792 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001455 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 92.9 MB.
+Received Import Request.
+  Time since last request: 3.825423 seconds.
+  path: Assets/Prefabs/Turrets/One_missile_turr.prefab
+  artifactKey: Guid(492a7fa7bbbf5884cb138917b2c3a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/One_missile_turr.prefab using Guid(492a7fa7bbbf5884cb138917b2c3a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87eb831c258bdc5ee12bff83a47525a') in 0.119925 seconds
+  Import took 0.130985 seconds .
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2369.
-Total: 4.984900 ms (FindLiveObjects: 0.524900 ms CreateObjectMapping: 0.416000 ms MarkObjects: 3.850100 ms  DeleteObjects: 0.191100 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.083310 seconds.
+  path: Assets/Prefabs/Turrets/One_missile_turr.prefab
+  artifactKey: Guid(492a7fa7bbbf5884cb138917b2c3a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/One_missile_turr.prefab using Guid(492a7fa7bbbf5884cb138917b2c3a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87eb831c258bdc5ee12bff83a47525a') in 0.038162 seconds
+  Import took 0.045894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.473813 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile051.png
+  artifactKey: Guid(c18290029270062478ecf401d7ebe6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile051.png using Guid(c18290029270062478ecf401d7ebe6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0df6d0044620593e935d1c0bd7e4b2') in 0.130158 seconds
+  Import took 0.219414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001311 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile092.png
+  artifactKey: Guid(89ce771c96d6f8e4d888bfe307f80af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile092.png using Guid(89ce771c96d6f8e4d888bfe307f80af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df66638c3c2034522849c329c8f70a29') in 0.106847 seconds
+  Import took 0.123279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile065.png
+  artifactKey: Guid(8a060abc6664b02479f05ad6ad690036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile065.png using Guid(8a060abc6664b02479f05ad6ad690036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4e3d06ea4fa52bd006d1705749cdc7') in 0.103041 seconds
+  Import took 0.110298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile054.png
+  artifactKey: Guid(7c4f3859f78d2f447b097b1b8cebd286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile054.png using Guid(7c4f3859f78d2f447b097b1b8cebd286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc288f36651906c2a4f9031b06fc0663') in 0.059783 seconds
+  Import took 0.066240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile064.png
+  artifactKey: Guid(4aa5ea6d0c6b79947bd15f9149d56a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile064.png using Guid(4aa5ea6d0c6b79947bd15f9149d56a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d213afac750e278b1ea99000ce2394') in 0.072643 seconds
+  Import took 0.077819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile071.png
+  artifactKey: Guid(333c7cb9be133f74284c7e573e0c5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile071.png using Guid(333c7cb9be133f74284c7e573e0c5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96f7473609a3899aac3863e47ce8485') in 0.141362 seconds
+  Import took 0.165121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile072.png
+  artifactKey: Guid(25915bfab0301db4188cdd71530260d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile072.png using Guid(25915bfab0301db4188cdd71530260d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e7df7d9a61b0cf6cbc9afc3700f22e') in 0.075334 seconds
+  Import took 0.081624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile084.png
+  artifactKey: Guid(327444c98b6c2d843b7d244994e06a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile084.png using Guid(327444c98b6c2d843b7d244994e06a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c269de55a34e6f794e294abde2bba5') in 0.102372 seconds
+  Import took 0.107937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile052.png
+  artifactKey: Guid(7720c9d348ae60d4b9f1b160655d3dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile052.png using Guid(7720c9d348ae60d4b9f1b160655d3dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15073e9a309eb090a289c1ebb6f4a80f') in 0.126383 seconds
+  Import took 0.134527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile062.png
+  artifactKey: Guid(0cc1399e5107e7f47995dff997a51aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile062.png using Guid(0cc1399e5107e7f47995dff997a51aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ac09b3d75a6d41c63a5539426f03f2') in 0.138607 seconds
+  Import took 0.145548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile082.png
+  artifactKey: Guid(e809c0bbee84ecf4bb7b93b7fcf52add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile082.png using Guid(e809c0bbee84ecf4bb7b93b7fcf52add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb3d63b61323d10a17af137f4002058') in 0.143993 seconds
+  Import took 0.151110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile070.png
+  artifactKey: Guid(9c7c6a50d107c244ebc5f137a587dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile070.png using Guid(9c7c6a50d107c244ebc5f137a587dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29e3b4de6a4cba5fe68dd4361a5424c') in 0.088298 seconds
+  Import took 0.094653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile063.png
+  artifactKey: Guid(39531a5ff0c12b9469d71b8e992f342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile063.png using Guid(39531a5ff0c12b9469d71b8e992f342a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d6d2eb0956479ee19a592a6a23d0d7') in 0.133598 seconds
+  Import took 0.137819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile083.png
+  artifactKey: Guid(90a3e45654b02c54d93b41178994edb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile083.png using Guid(90a3e45654b02c54d93b41178994edb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf844cffc5ed1c8ac13ce00b0af0a08') in 0.081447 seconds
+  Import took 0.086984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile078.png
+  artifactKey: Guid(c2914e6a314eea5478ee1cfffb0b85c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile078.png using Guid(c2914e6a314eea5478ee1cfffb0b85c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138b82cebdaf24c5f3476b506f8c1261') in 0.112675 seconds
+  Import took 0.119388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile053.png
+  artifactKey: Guid(6f3ea0ba890268141942cb8addd627e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile053.png using Guid(6f3ea0ba890268141942cb8addd627e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163db52211a46bc5631c13258c0f8188') in 0.174059 seconds
+  Import took 0.287232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015026 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile066.png
+  artifactKey: Guid(4ff0c9eecf9f6254db4783aaf235f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile066.png using Guid(4ff0c9eecf9f6254db4783aaf235f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0dd1d94e83f804ed68dc8172d9d5d1') in 0.092665 seconds
+  Import took 0.101882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile085.png
+  artifactKey: Guid(59939f764eeb51342b230a7e239c82b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile085.png using Guid(59939f764eeb51342b230a7e239c82b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf4a245c015472bf1734d83f3031b51') in 0.080827 seconds
+  Import took 0.087519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile057.png
+  artifactKey: Guid(74e05d28941bc4a479c8eca2f2d49e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile057.png using Guid(74e05d28941bc4a479c8eca2f2d49e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38e8856f49b86f9e0a2d59ab40b8121') in 0.099916 seconds
+  Import took 0.105839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile055.png
+  artifactKey: Guid(9fa687c0f479a574eb716ebcc2f4ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile055.png using Guid(9fa687c0f479a574eb716ebcc2f4ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52ece2d05bee6ed1c9a94f4fa80f53f') in 0.114952 seconds
+  Import took 0.119665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile073.png
+  artifactKey: Guid(be09dab5d1cb91748a52667e9149298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile073.png using Guid(be09dab5d1cb91748a52667e9149298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9606d5492abe135dc8c04c74b51f3') in 0.088878 seconds
+  Import took 0.093652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile067.png
+  artifactKey: Guid(72d2f1c918e9ff44880c9f69ab6efb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile067.png using Guid(72d2f1c918e9ff44880c9f69ab6efb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18e0252bdd87ec904bf5ce39f9a8267') in 0.118648 seconds
+  Import took 0.125060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile086.png
+  artifactKey: Guid(46b1dc3722f591840ba0a469c67e3d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile086.png using Guid(46b1dc3722f591840ba0a469c67e3d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54ef50e35071ae88b6decf48581f0a') in 0.068661 seconds
+  Import took 0.073558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile056.png
+  artifactKey: Guid(5e46767c12a29bf44acea18d0774ab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile056.png using Guid(5e46767c12a29bf44acea18d0774ab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7749b187b3103ae8ffe631e379273d') in 0.076033 seconds
+  Import took 0.080829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.058002 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile295.png
+  artifactKey: Guid(084eede72ac6b144d956bd441d8390a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile295.png using Guid(084eede72ac6b144d956bd441d8390a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6811cd7325d44010a8e931a643f178f') in 0.112544 seconds
+  Import took 0.143475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile296.png
+  artifactKey: Guid(1fbf1ad2b024ab646b52e7e338865deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile296.png using Guid(1fbf1ad2b024ab646b52e7e338865deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e423949d79430491d9e645317636ba99') in 0.098693 seconds
+  Import took 0.106063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148785 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile294.png
+  artifactKey: Guid(d5387ecb8cb3b654e82e9d7fe31c1d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile294.png using Guid(d5387ecb8cb3b654e82e9d7fe31c1d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b22f72c19a427f7ff08240f8f71e9a2') in 0.070844 seconds
+  Import took 0.076111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005167 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile294.png
+  artifactKey: Guid(d5387ecb8cb3b654e82e9d7fe31c1d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile294.png using Guid(d5387ecb8cb3b654e82e9d7fe31c1d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b22f72c19a427f7ff08240f8f71e9a2') in 0.034792 seconds
+  Import took 0.040676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.535965 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile289.png
+  artifactKey: Guid(d6489608b8a5e4f43af123a146646b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile289.png using Guid(d6489608b8a5e4f43af123a146646b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ac6c351618f94b56aa420cc37438d9') in 0.063106 seconds
+  Import took 0.068930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814571 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile283.png
+  artifactKey: Guid(c4adf6a4d9a26974fa507f5b2b165053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile283.png using Guid(c4adf6a4d9a26974fa507f5b2b165053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372202f53cecf81ee460fadaadf0ed07') in 0.076875 seconds
+  Import took 0.081949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151933 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile282.png
+  artifactKey: Guid(2f366fc815d5d844caa78c62190e8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile282.png using Guid(2f366fc815d5d844caa78c62190e8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942f7768b088ae9a4a43ea9937909493') in 0.043906 seconds
+  Import took 0.048978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile281.png
+  artifactKey: Guid(70dc76797a9bf3b4d9da6ae14c72d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile281.png using Guid(70dc76797a9bf3b4d9da6ae14c72d734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d898dbd5c0f8f5d52533eb8a88eb72d') in 0.076028 seconds
+  Import took 0.080930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile280.png
+  artifactKey: Guid(5516ce1110f96ca48a79292326aae1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile280.png using Guid(5516ce1110f96ca48a79292326aae1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bd902398f57a75cff971b65306deaf') in 0.073476 seconds
+  Import took 0.078777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile279.png
+  artifactKey: Guid(6eaf7dd66ea23cc428ebf6d59d910b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile279.png using Guid(6eaf7dd66ea23cc428ebf6d59d910b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94536e6f67d2376450b4bb8b27601b3d') in 0.076108 seconds
+  Import took 0.081208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile279.png
+  artifactKey: Guid(6eaf7dd66ea23cc428ebf6d59d910b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile279.png using Guid(6eaf7dd66ea23cc428ebf6d59d910b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94536e6f67d2376450b4bb8b27601b3d') in 0.017761 seconds
+  Import took 0.023021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657081 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile269.png
+  artifactKey: Guid(bcded940571d20a4bba99adac5a8277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile269.png using Guid(bcded940571d20a4bba99adac5a8277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c5e6bfff6cbc24736e815d3efb7009') in 0.074646 seconds
+  Import took 0.079687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile268.png
+  artifactKey: Guid(bb95d74f6cb3b5d468df39dfd0bee3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile268.png using Guid(bb95d74f6cb3b5d468df39dfd0bee3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba067acc62ab62a25bacddc603fab6b') in 0.079358 seconds
+  Import took 0.087244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile267.png
+  artifactKey: Guid(7bac95d47877cf944931d77afebf0b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile267.png using Guid(7bac95d47877cf944931d77afebf0b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a64182e2b7abd473f3a08b6be36bc6') in 0.071247 seconds
+  Import took 0.077852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.032860 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile260.png
+  artifactKey: Guid(458cc0f4250aa614ca87845f456b2cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile260.png using Guid(458cc0f4250aa614ca87845f456b2cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da1b9ee4124e65be47ed70c3842ea1f') in 0.090175 seconds
+  Import took 0.094882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.152893 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile248.png
+  artifactKey: Guid(1621e01717a059f4fbf3f99f5a1a2eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile248.png using Guid(1621e01717a059f4fbf3f99f5a1a2eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f86741e06ae52dab50acbcfb7d545c') in 0.062087 seconds
+  Import took 0.067372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008467 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile248.png
+  artifactKey: Guid(1621e01717a059f4fbf3f99f5a1a2eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile248.png using Guid(1621e01717a059f4fbf3f99f5a1a2eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f86741e06ae52dab50acbcfb7d545c') in 0.028391 seconds
+  Import took 0.033871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.608325 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile241.png
+  artifactKey: Guid(3205ee9d78b2afa489e32f0bf81550d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile241.png using Guid(3205ee9d78b2afa489e32f0bf81550d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bcc1ea98c778cd711c474be68137b4') in 0.063177 seconds
+  Import took 0.068041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402050 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile240.png
+  artifactKey: Guid(0113b5caabd6a5d4094df7f65bfb6c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile240.png using Guid(0113b5caabd6a5d4094df7f65bfb6c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f33ef737e730ed3e66dc015e5b059a1') in 0.075344 seconds
+  Import took 0.083781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile239.png
+  artifactKey: Guid(d16cbbd6d457ee94e9af6a22839d8043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile239.png using Guid(d16cbbd6d457ee94e9af6a22839d8043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1270cd8325843b0d9044409d52b43b') in 0.130455 seconds
+  Import took 0.137631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.482901 seconds.
+  path: Assets/ScriptableObject/DualMachineTurr.asset
+  artifactKey: Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/DualMachineTurr.asset using Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf3ba7daf9f9863ab1b9fbd1534dea9') in 0.023219 seconds
+  Import took 0.029495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020098 seconds.
+  path: Assets/ScriptableObject/DualMachineTurr.asset
+  artifactKey: Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/DualMachineTurr.asset using Guid(d0499042792f45745b58c35485c4edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf3ba7daf9f9863ab1b9fbd1534dea9') in 0.016302 seconds
+  Import took 0.023362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.199548 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile059.png
+  artifactKey: Guid(b10c4b56020619c41bac40bdc6a26c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile059.png using Guid(b10c4b56020619c41bac40bdc6a26c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087c78bf8630872ed76b311e523d2007') in 0.181601 seconds
+  Import took 0.188246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile096.png
+  artifactKey: Guid(19edcddfe03da95409d57b82a2db40a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile096.png using Guid(19edcddfe03da95409d57b82a2db40a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3c6a603984efc3f89716c71e8c8dea') in 0.122633 seconds
+  Import took 0.128647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001362 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile196.png
+  artifactKey: Guid(94bf1c93b0cb95e49a0e13a9565b3a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile196.png using Guid(94bf1c93b0cb95e49a0e13a9565b3a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdd83eff89895121072b7d68135ad64') in 0.090145 seconds
+  Import took 0.095923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile095.png
+  artifactKey: Guid(381dca61ed3834745a3382577c52c8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile095.png using Guid(381dca61ed3834745a3382577c52c8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b6cf7d996e5f132829592edde7c7a3') in 0.103952 seconds
+  Import took 0.108757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile060.png
+  artifactKey: Guid(8940d5893c84d4749a554d281bdbaa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile060.png using Guid(8940d5893c84d4749a554d281bdbaa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfae66de3ec7ddafad80e3e4d89f15a') in 0.087745 seconds
+  Import took 0.093617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile097.png
+  artifactKey: Guid(77d7df49c436b7647b30567ea0a3dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile097.png using Guid(77d7df49c436b7647b30567ea0a3dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a418f6402d253b27aefb15b23cd646b') in 0.094062 seconds
+  Import took 0.100197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile098.png
+  artifactKey: Guid(bc9c17d880b7165428af829681bc6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile098.png using Guid(bc9c17d880b7165428af829681bc6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6571eea1aebd4246a60f707a89d2b80') in 0.061313 seconds
+  Import took 0.066597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile172.png
+  artifactKey: Guid(8b04c5749795eca4ca03fd0a19cb0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile172.png using Guid(8b04c5749795eca4ca03fd0a19cb0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d660b7b04693bc360f0fd5c74b04fb') in 0.075959 seconds
+  Import took 0.082347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile197.png
+  artifactKey: Guid(dcf7502514ac51141b606725171219ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile197.png using Guid(dcf7502514ac51141b606725171219ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aacf5279be1a67c43f1de732e6d3bce') in 0.064288 seconds
+  Import took 0.071878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile061.png
+  artifactKey: Guid(68127c314672f3b47bd2f553867320b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile061.png using Guid(68127c314672f3b47bd2f553867320b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01985ae1d8595908539ee9b04d848f5e') in 0.099972 seconds
+  Import took 0.108061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.347871 seconds.
+  path: Assets/ScriptableObject/MegaTwoMissileTurr.asset
+  artifactKey: Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/MegaTwoMissileTurr.asset using Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263d4d7dc3d8562367f5d9b441a06c7a') in 0.025855 seconds
+  Import took 0.031424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034681 seconds.
+  path: Assets/ScriptableObject/MegaTwoMissileTurr.asset
+  artifactKey: Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/MegaTwoMissileTurr.asset using Guid(305f3b91d8edcf8418030fb2a567c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263d4d7dc3d8562367f5d9b441a06c7a') in 0.017634 seconds
+  Import took 0.026124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.398642 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile058.png
+  artifactKey: Guid(9de1b5deeee962e48838c0ac0b89e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile058.png using Guid(9de1b5deeee962e48838c0ac0b89e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9023984321225abbf3f89c908c83b') in 0.271072 seconds
+  Import took 0.276882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile087.png
+  artifactKey: Guid(2dd909b885d730647a35aea4134509ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile087.png using Guid(2dd909b885d730647a35aea4134509ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90eb9705416cfdbf3162471b8ba4be9') in 0.093103 seconds
+  Import took 0.099074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile081.png
+  artifactKey: Guid(ad187a1a0dc096b4e84bbe075ccfaabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile081.png using Guid(ad187a1a0dc096b4e84bbe075ccfaabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9518cc4498b1e9ea611732f3b71a2208') in 0.106834 seconds
+  Import took 0.111132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile079.png
+  artifactKey: Guid(ca30ee1043c23c340b561aa35fffd35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile079.png using Guid(ca30ee1043c23c340b561aa35fffd35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3340e7abfb47e44459757c5c5f54df04') in 0.075944 seconds
+  Import took 0.080851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile093.png
+  artifactKey: Guid(ba9bf3fd439e93c4a932c49ce3287c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile093.png using Guid(ba9bf3fd439e93c4a932c49ce3287c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02e497a6af1dec7c4fb23515b1e1ad1') in 0.071940 seconds
+  Import took 0.078107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile100.png
+  artifactKey: Guid(665c6ab741289e4498ee967197c4cec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile100.png using Guid(665c6ab741289e4498ee967197c4cec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07395717b2397797bcf7c2a2fdb8e7bd') in 0.135994 seconds
+  Import took 0.145242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile094.png
+  artifactKey: Guid(308e522eca9aa0447847858eeaa1de5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile094.png using Guid(308e522eca9aa0447847858eeaa1de5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7d20d060243e37b50162394a8dbd80') in 0.095672 seconds
+  Import took 0.100170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile146.png
+  artifactKey: Guid(83a62aa4727fd45428e462ad824ac1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile146.png using Guid(83a62aa4727fd45428e462ad824ac1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759fe6b97118acf17a6882ed4dc4d68f') in 0.083181 seconds
+  Import took 0.089916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile147.png
+  artifactKey: Guid(45df9d38cab9a804984330c5f3c74e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile147.png using Guid(45df9d38cab9a804984330c5f3c74e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd05605d9997142e05d60f0613bab31') in 0.095209 seconds
+  Import took 0.100505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile149.png
+  artifactKey: Guid(911d3bf162559e04c884568028ba2264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile149.png using Guid(911d3bf162559e04c884568028ba2264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46f98033865830a4ba3ab63e6215fde') in 0.115952 seconds
+  Import took 0.121261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile183.png
+  artifactKey: Guid(183f0987975384c4a9e244191e2bf6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile183.png using Guid(183f0987975384c4a9e244191e2bf6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf4c647bfadbd94a1bdf07f3385d38') in 0.124156 seconds
+  Import took 0.129354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile163.png
+  artifactKey: Guid(9713a787b4d7dc148b4cd35fb4bf680f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile163.png using Guid(9713a787b4d7dc148b4cd35fb4bf680f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996c06779539d5051954f52e8b88a070') in 0.104617 seconds
+  Import took 0.108633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile148.png
+  artifactKey: Guid(7ecee7eef61b33e43b0c02e0e7e820a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile148.png using Guid(7ecee7eef61b33e43b0c02e0e7e820a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3304ac09ad6ec79bb98d55fd78acbaa7') in 0.072184 seconds
+  Import took 0.076206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile080.png
+  artifactKey: Guid(25699cf464f8e2a458aa3a484bcede49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile080.png using Guid(25699cf464f8e2a458aa3a484bcede49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f7d77ccc3da11fbc9e4fd5bdaeb6e9') in 0.062893 seconds
+  Import took 0.066978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile099.png
+  artifactKey: Guid(ce0e6323734a4d84ea056ae90a07ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile099.png using Guid(ce0e6323734a4d84ea056ae90a07ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d9c76a9305f4b4fe5b390e7d647285') in 0.066228 seconds
+  Import took 0.070514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.733193 seconds.
+  path: Assets/ScriptableObject/SingleMachineTurr.asset
+  artifactKey: Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/SingleMachineTurr.asset using Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca43c2b53e062a179483c5808488b51') in 0.022630 seconds
+  Import took 0.028393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016485 seconds.
+  path: Assets/ScriptableObject/SingleMachineTurr.asset
+  artifactKey: Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/SingleMachineTurr.asset using Guid(0bbb86374030fa345956703544796da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca43c2b53e062a179483c5808488b51') in 0.016497 seconds
+  Import took 0.023231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.863477 seconds.
+  path: Assets/ScriptableObject/TankTurr.asset
+  artifactKey: Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/TankTurr.asset using Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dba56c084948ebc23b450462f4e2dc') in 0.023964 seconds
+  Import took 0.030504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024628 seconds.
+  path: Assets/ScriptableObject/TankTurr.asset
+  artifactKey: Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/TankTurr.asset using Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dba56c084948ebc23b450462f4e2dc') in 0.015820 seconds
+  Import took 0.024618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.420903 seconds.
+  path: Assets/ScriptableObject/TankTurr.asset
+  artifactKey: Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/TankTurr.asset using Guid(e4ae791249cf0f74db258245fc76be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3960aa7114bac04b10f90a012e6732') in 0.049994 seconds
+  Import took 0.064086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 628.895623 seconds.
+  path: Assets/Sprites/UI/UI.png
+  artifactKey: Guid(0fdd8f2d36347d54bbd94807f01dd987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/UI.png using Guid(0fdd8f2d36347d54bbd94807f01dd987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e1e20a071bae3fdb3ffeab7be0bdc5') in 0.102955 seconds
+  Import took 0.130072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.795977 seconds.
+  path: Assets/Sprites/UI/UI.png
+  artifactKey: Guid(0fdd8f2d36347d54bbd94807f01dd987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/UI.png using Guid(0fdd8f2d36347d54bbd94807f01dd987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f12dea97d8e374758d50f718d37ac1') in 0.170097 seconds
+  Import took 0.177627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.295667 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile101.png
+  artifactKey: Guid(11c551042855ac045ab79daedfbc4df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile101.png using Guid(11c551042855ac045ab79daedfbc4df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c7e796bf295af02974708a501ebe97') in 0.146837 seconds
+  Import took 0.252964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile112.png
+  artifactKey: Guid(a629c04a51cc41145bdb33e7d4ca0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile112.png using Guid(a629c04a51cc41145bdb33e7d4ca0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342aa2c622b7b371fccf9b2610177848') in 0.122146 seconds
+  Import took 0.128285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile103.png
+  artifactKey: Guid(69b7a807eab798c4b8de34250108c8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile103.png using Guid(69b7a807eab798c4b8de34250108c8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2183b7e4ddc8860a8357a8083f7487c') in 0.104114 seconds
+  Import took 0.109096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile102.png
+  artifactKey: Guid(db1e9496c2ada4f429d9768be4553956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile102.png using Guid(db1e9496c2ada4f429d9768be4553956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8863c9de5b478fbd40e1517f013daec5') in 0.098598 seconds
+  Import took 0.104374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.643903 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile068.png
+  artifactKey: Guid(459bdacceff028946afba6f00e692b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile068.png using Guid(459bdacceff028946afba6f00e692b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2960430c1ab38f08744e7c288c1fcfa7') in 0.191994 seconds
+  Import took 0.198371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile069.png
+  artifactKey: Guid(edd0a52ae9ee8fb48b018402e2f3b20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile069.png using Guid(edd0a52ae9ee8fb48b018402e2f3b20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caff100945cd83d48285cfaee6509d6') in 0.105805 seconds
+  Import took 0.110789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.477185 seconds.
+  path: Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile195.png
+  artifactKey: Guid(ad069f6780eb7b146ba8308ba854a24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TowerDefensePlatform/PNG/Retina/towerDefense_tile195.png using Guid(ad069f6780eb7b146ba8308ba854a24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e77e48939018f509605e5d3b3d8b07e') in 0.079983 seconds
+  Import took 0.086288 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

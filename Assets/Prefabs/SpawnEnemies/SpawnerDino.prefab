@@ -46,12 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: 0.723567, y: 0.033557177, z: 0}
-  - {x: 17.718977, y: 0.050342083, z: 0}
-  - {x: 17.21033, y: -4.233838, z: 0}
-  - {x: 3.911234, y: -3.9529064, z: 0}
-  - {x: 4.378397, y: -6.629358, z: 0}
-  - {x: 19.747757, y: -6.6048737, z: 0}
+  - {x: 0.7948017, y: 0.3903587, z: 0}
+  - {x: 6.3283925, y: 0.40253282, z: 0}
+  - {x: 6.3353753, y: -2.844512, z: 0}
+  - {x: 9.074854, y: -2.8055766, z: 0}
+  - {x: 9.142458, y: 1.2917583, z: 0}
+  - {x: 18.148, y: 1.2714055, z: 0}
+  - {x: 18.141968, y: -0.73859715, z: 0}
+  - {x: 10.967352, y: -0.69439006, z: 0}
+  - {x: 11.093939, y: -3.0590603, z: 0}
+  - {x: 17.897404, y: -3.018509, z: 0}
+  - {x: 17.673874, y: -5.9671416, z: 0}
+  - {x: 3.5711174, y: -5.872555, z: 0}
+  - {x: 3.6217813, y: -8.093272, z: 0}
 --- !u!114 &1299755600647668193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,7 +74,7 @@ MonoBehaviour:
   spawnMode: 0
   enemyCount: 1
   delayBtwWaves: 1
-  delayBetwSpawns: 0.5
+  delayBetwSpawns: 5
   minRandomDelay: 1
   maxRandomDelay: 3
 --- !u!114 &1299755600647668195
@@ -83,4 +90,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3751768678207901500, guid: ef5fc013eb68286408f04a5c7bc108e6, type: 3}
-  poolSize: 1
+  poolSize: 2

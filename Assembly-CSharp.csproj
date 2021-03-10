@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\TurretUpgrade.cs" />
     <Compile Include="Assets\Scripts\TurretProjectile.cs" />
     <Compile Include="Assets\Scripts\DamageTextManager.cs" />
+    <Compile Include="Assets\Scripts\CurrencySystem.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
     <Compile Include="Assets\Scripts\WaypointEditor.cs" />
     <Compile Include="Assets\Scripts\EnemyHealthBar.cs" />
@@ -76,7 +77,7 @@
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MachineProjectile.cs" />
     <Compile Include="Assets\Scripts\TankTurretProjectile.cs" />
-    <Compile Include="Assets\Scripts\CurrencySystem.cs" />
+    <Compile Include="Assets\Scripts\TurretSetting.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

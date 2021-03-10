@@ -10,7 +10,7 @@ public class TurretShopManager : MonoBehaviour
     [Header("Turret Settings")]
     [SerializeField] private TurretSetting[] turrets;
 
-    //private Node _currentNodeSelected;
+    private Node _currentNodeSelected;
     void Start()
     {
         for (int i = 0; i < turrets.Length; i++)
@@ -29,4 +29,39 @@ public class TurretShopManager : MonoBehaviour
         cardButton.SetupTurretButton(turretSettings);
     }
 
+    private void NodeSelected(Node nodeSelected)
+    {
+        _currentNodeSelected = nodeSelected;
+        //if (_currentNodeSelected.IsEmpty())
+        //{
+        //    turretShopPanel.SetActive(true);
+        //}
+
+    }
+
+    private void PlaceTurret(TurretSetting turretLoaded)
+    {
+        if (_currentNodeSelected != null)
+        {
+            GameObject turretInstance = Instantiate(turretLoaded.TurretPrefab);
+            turretInstance.transform.localPosition = _currentNodeSelected.transform.position;
+            turretInstance.transform.parent = _currentNodeSelected.transform;
+
+            Turret turretPlaced = turretInstance.GetComponent<Turret>();
+            _currentNodeSelected.SetTurret(turretPlaced);
+        }
+    }
+
+    private void OnEnable()
+    {
+        Node.OnNodeSelected += NodeSelected;
+        TurretCard.OnPlaceTurret += PlaceTurret;
+    }
+
+    private void OnDisable()
+    {
+        Node.OnNodeSelected -= NodeSelected;
+        TurretCard.OnPlaceTurret -= PlaceTurret;
+    }
 }
+

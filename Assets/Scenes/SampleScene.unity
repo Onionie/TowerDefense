@@ -356,7 +356,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1001 &89043702
 PrefabInstance:
@@ -735,8 +735,8 @@ Transform:
   - {fileID: 1554649321}
   - {fileID: 1468266841}
   - {fileID: 980897141}
-  - {fileID: 571601848}
   - {fileID: 878524569}
+  - {fileID: 571601848}
   - {fileID: 541372404}
   - {fileID: 1386400871}
   - {fileID: 1556676141}
@@ -5453,9 +5453,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1287916355
+  m_SortingLayer: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ccdde5e82417c404895e26b5cb426c5c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

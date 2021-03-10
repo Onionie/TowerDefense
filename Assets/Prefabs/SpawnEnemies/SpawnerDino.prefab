@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1299755600647668194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1299755600647668192}
+  - component: {fileID: 1299755600647668206}
+  - component: {fileID: 1299755600647668193}
+  - component: {fileID: 1299755600647668195}
+  m_Layer: 0
+  m_Name: SpawnerDino
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1299755600647668192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299755600647668194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.37, y: 2.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299755600647668206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299755600647668194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7eeb55dde96c447a52060576e8e401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0.723567, y: 0.033557177, z: 0}
+  - {x: 17.718977, y: 0.050342083, z: 0}
+  - {x: 17.21033, y: -4.233838, z: 0}
+  - {x: 3.911234, y: -3.9529064, z: 0}
+  - {x: 4.378397, y: -6.629358, z: 0}
+  - {x: 19.747757, y: -6.6048737, z: 0}
+--- !u!114 &1299755600647668193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299755600647668194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b0272034afb5d4c86efc71a3d0fd28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnMode: 0
+  enemyCount: 1
+  delayBtwWaves: 1
+  delayBetwSpawns: 0.5
+  minRandomDelay: 1
+  maxRandomDelay: 3
+--- !u!114 &1299755600647668195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299755600647668194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcbfac2701413b4bb34533eb770a207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3751768678207901500, guid: ef5fc013eb68286408f04a5c7bc108e6, type: 3}
+  poolSize: 1

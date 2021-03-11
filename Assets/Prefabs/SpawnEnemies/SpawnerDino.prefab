@@ -74,7 +74,7 @@ MonoBehaviour:
   spawnMode: 0
   enemyCount: 1
   delayBtwWaves: 1
-  delayBetwSpawns: 5
+  delayBetwSpawns: 10
   minRandomDelay: 1
   maxRandomDelay: 3
 --- !u!114 &1299755600647668195
@@ -90,4 +90,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3751768678207901500, guid: ef5fc013eb68286408f04a5c7bc108e6, type: 3}
-  poolSize: 2
+  poolSize: 1

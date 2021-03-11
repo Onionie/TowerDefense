@@ -75,7 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnMode: 0
   enemyCount: 1
-  delayBtwWaves: 1
+  delayBtwWaves: 10
   delayBetwSpawns: 1
   minRandomDelay: 1
   maxRandomDelay: 3

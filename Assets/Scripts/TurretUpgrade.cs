@@ -10,6 +10,7 @@ public class TurretUpgrade : MonoBehaviour
     [SerializeField] private float delayReduce;
 
     public int UpgradeCost { get; set; }
+    public int Level { get; set; }
 
     private TurretProjectile _turretProjectile;
 
@@ -17,18 +18,11 @@ public class TurretUpgrade : MonoBehaviour
     {
         _turretProjectile = GetComponent<TurretProjectile>();
         UpgradeCost = upgradeInitialCost;
+
+        Level = 1;
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-
-            UpgradeTurret();
-        }
-    }
-
-    private void UpgradeTurret()
+    public void UpgradeTurret()
     {
         if (CurrencySystem.Instance.TotalCoins >= UpgradeCost)
         {
@@ -42,5 +36,6 @@ public class TurretUpgrade : MonoBehaviour
     {
         CurrencySystem.Instance.RemoveCoins(UpgradeCost);
         UpgradeCost += upgradeCostIncremental;
+        Level++;
     }
 }

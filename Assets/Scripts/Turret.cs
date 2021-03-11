@@ -8,6 +8,7 @@ public class Turret : MonoBehaviour
     [SerializeField] private float attackRange = 3f;
 
     public Enemy CurrentEnemyTarget { get; set; }
+    public TurretUpgrade TurretUpgrade { get; set; }
 
     private bool gameStarted;
 
@@ -17,6 +18,8 @@ public class Turret : MonoBehaviour
     {
         gameStarted = true;
         enemies = new List<Enemy>();
+
+        TurretUpgrade = GetComponent<TurretUpgrade>();
     }
 
     private void Update()

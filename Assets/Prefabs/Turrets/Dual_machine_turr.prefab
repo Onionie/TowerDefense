@@ -195,6 +195,7 @@ MonoBehaviour:
   upgradeCostIncremental: 5
   damageIncremental: 0
   delayReduce: 0
+  sellPert: 0.5
 --- !u!1 &3547737165073174570
 GameObject:
   m_ObjectHideFlags: 0

@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1717994359
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e09758071753a624785f1ca7b3c05ba4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -193,6 +193,7 @@ MonoBehaviour:
   upgradeCostIncremental: 1
   damageIncremental: 4
   delayReduce: 0.2
+  sellPert: 0.5
 --- !u!1 &1071386629805596035
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +325,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1717994359
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: fbd11bc95b9103245ba976edd6597cea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

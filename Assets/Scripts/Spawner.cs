@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using Random = UnityEngine.Random;
 
 public enum SpawnModes
 { 
@@ -12,6 +14,8 @@ public enum SpawnModes
 
 public class Spawner : MonoBehaviour
 {
+    public static Action OnWaveCompleted;
+
     [Header("Settings")]
     [SerializeField] private SpawnModes spawnMode = SpawnModes.Fixed;
     [SerializeField] private int enemyCount = 10;
@@ -102,6 +106,7 @@ public class Spawner : MonoBehaviour
         enemiesRem--;
         if (enemiesRem <= 0)
         {
+            OnWaveCompleted?.Invoke();
             StartCoroutine(NextWave());
         }
     }

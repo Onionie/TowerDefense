@@ -16,12 +16,14 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI turretLevelText;
     [SerializeField] private TextMeshProUGUI lifesText;
     [SerializeField] private TextMeshProUGUI totalCoinsText;
+    [SerializeField] private TextMeshProUGUI currentWavetext;
 
 
     private void Update()
     {
         totalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
         lifesText.text = LevelManager.Instance.TotalLives.ToString();
+        currentWavetext.text = $"Wave {LevelManager.Instance.CurrentWave}";
     }
 
     private Node _currentNodeSelected;

@@ -7,10 +7,12 @@ public class LevelManager : Singleton<LevelManager>
     [SerializeField] private int lives = 3;
 
     public int TotalLives { get; set; }
+    public int CurrentWave { get; set; }
 
     private void Start()
     {
         TotalLives = lives;
+        CurrentWave = 1;
     }
 
 
@@ -25,14 +27,21 @@ public class LevelManager : Singleton<LevelManager>
 
     }
 
+    private void WaveCompleted()
+    {
+        CurrentWave++;
+    }
+
     private void OnEnable()
     {
         Enemy.OnEndReached += ReduceLives;
+        Spawner.OnWaveCompleted += WaveCompleted;
     }
 
     private void OnDisable()
     {
         Enemy.OnEndReached -= ReduceLives;
+        Spawner.OnWaveCompleted -= WaveCompleted;
     }
 
 

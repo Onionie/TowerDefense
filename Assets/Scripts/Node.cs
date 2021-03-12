@@ -49,7 +49,7 @@ public class Node : MonoBehaviour
     {
         if (!IsEmpty())
         {
-            CurrencySystem.Instance.AddCoins(Turret.TurretUpgrade.UpgradeCost);
+            CurrencySystem.Instance.AddCoins(Turret.TurretUpgrade.GetSellValue());
             Destroy(Turret.gameObject);
             Turret = null;
             attackRangeSprite.SetActive(false);

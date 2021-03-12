@@ -14,6 +14,15 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI upgradeText;
     [SerializeField] private TextMeshProUGUI sellText;
     [SerializeField] private TextMeshProUGUI turretLevelText;
+    [SerializeField] private TextMeshProUGUI lifesText;
+    [SerializeField] private TextMeshProUGUI totalCoinsText;
+
+
+    private void Update()
+    {
+        totalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
+        lifesText.text = LevelManager.Instance.TotalLives.ToString();
+    }
 
     private Node _currentNodeSelected;
 

@@ -31,6 +31,11 @@ public class Node : MonoBehaviour
         return Turret == null;
     }
 
+    public void CloseAttackRangeSprite()
+    {
+        attackRangeSprite.SetActive(false);   
+    }
+
     public void SelectTurret()
     {
         OnNodeSelected?.Invoke(this);

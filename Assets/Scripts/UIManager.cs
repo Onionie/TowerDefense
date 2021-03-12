@@ -30,6 +30,13 @@ public class UIManager : Singleton<UIManager>
     {
         turretShopPanel.SetActive(false);
     }
+
+    public void CloseNodeUIPanel()
+    {
+        _currentNodeSelected.CloseAttackRangeSprite();
+        nodeUIPanel.SetActive(false);
+    }
+
     public void UpgradeTurret()
     {
         _currentNodeSelected.Turret.TurretUpgrade.UpgradeTurret();

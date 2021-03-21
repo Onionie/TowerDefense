@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\DamageText.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\EnemyAnimation.cs" />
     <Compile Include="Assets\Scripts\TurretUpgrade.cs" />
     <Compile Include="Assets\Scripts\TurretProjectile.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="Assets\Scripts\MachineProjectile.cs" />
     <Compile Include="Assets\Scripts\TankTurretProjectile.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Achievement.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

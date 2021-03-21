@@ -2,17 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AchievementManager : MonoBehaviour
+public class AchievementManager : Singleton<AchievementManager>
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private AchievementCard achievementCardPrefab;
+    [SerializeField] private Transform achievementPanelContainer;
+    [SerializeField] private Achievement[] achievements;
+
+    private void Start()
     {
-        
+        LoadAchievements();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LoadAchievements()
     {
-        
+        for (int i = 0; i < achievements.Length; i++)
+        {
+            AchievementCard card = Instantiate(achievementCardPrefab, achievementPanelContainer);
+            card.SetupAchievement(achievements[i]);
+        }
     }
 }

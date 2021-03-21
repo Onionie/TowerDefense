@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Complete_100_waves
   m_EditorClassIdentifier: 
   ID: Waves100
-  Title: Platinum Defender
+  Title: Diamond Rank
   ProgressToUnlock: 100
-  GoldReward: 200
+  GoldReward: 250
   Sprite: {fileID: 1022024435856430240, guid: 98716c0052a59714d8cbc7ce7e4aeabc, type: 3}

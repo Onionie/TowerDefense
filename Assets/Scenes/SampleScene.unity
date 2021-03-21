@@ -4840,6 +4840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turretShopPanel: {fileID: 55513778}
   nodeUIPanel: {fileID: 1641974563}
+  achievementPanel: {fileID: 0}
   upgradeText: {fileID: 312131188}
   sellText: {fileID: 2026656592}
   turretLevelText: {fileID: 2101444788}
@@ -5014,7 +5015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &795474946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8733,7 +8734,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -0.0000058561563, y: 0}
-  m_SizeDelta: {x: 880, y: 0}
+  m_SizeDelta: {x: 880, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1762889643
 MonoBehaviour:

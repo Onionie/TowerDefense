@@ -8,6 +8,7 @@ public class UIManager : Singleton<UIManager>
     [Header("Panels")]
     [SerializeField] private GameObject turretShopPanel;
     [SerializeField] private GameObject nodeUIPanel;
+    [SerializeField] private GameObject achievementPanel;
 
 
     [Header("Text")]
@@ -18,6 +19,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI totalCoinsText;
     [SerializeField] private TextMeshProUGUI currentWavetext;
 
+    private Node _currentNodeSelected;
 
     private void Update()
     {
@@ -26,7 +28,10 @@ public class UIManager : Singleton<UIManager>
         currentWavetext.text = $"Wave {LevelManager.Instance.CurrentWave}";
     }
 
-    private Node _currentNodeSelected;
+    public void OpenAchievementPanel(bool status)
+    {
+        achievementPanel.SetActive(status);
+    }
 
     public void CloseTurretShopPanel()
     {

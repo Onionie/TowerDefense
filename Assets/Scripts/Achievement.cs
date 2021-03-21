@@ -32,4 +32,9 @@ public class Achievement : ScriptableObject
     {
         AchievementManager.OnAchievementUnlocked?.Invoke(this);
     }
+
+    public string GetProgress()
+    {
+        return $"{CurrentProgress}/{ProgressToUnlock}";
+    }
 }

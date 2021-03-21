@@ -11,14 +11,16 @@ public class AchievementCard : MonoBehaviour
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI progress;
     [SerializeField] private TextMeshProUGUI reward;
-  //  [SerializeField] private Button rewardButton;
+    //  [SerializeField] private Button rewardButton;
+
+    public Achievement AchievementLoaded { get; set; }
 
     public void SetupAchievement(Achievement achievement)
     {
        // AchievementLoaded = achievement;
         achievementImage.sprite = achievement.Sprite;
         title.text = achievement.Title;
-        //progress.text = achievement.GetProgress();
+        progress.text = achievement.GetProgress();
         reward.text = achievement.GoldReward.ToString();
     }
 }

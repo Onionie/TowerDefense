@@ -74,7 +74,9 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-     
+        AchievementManager.Instance.AddProgress("Kill20", 1);
+        AchievementManager.Instance.AddProgress("Kill50", 1);
+        AchievementManager.Instance.AddProgress("Kill100", 1);
         OnEnemyKilled?.Invoke(_enemy);
      
     }

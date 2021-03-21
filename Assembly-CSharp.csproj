@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\EnemyFX.cs" />
+    <Compile Include="Assets\Scripts\Achievement.cs" />
     <Compile Include="Assets\Scripts\Projectiles.cs" />
     <Compile Include="Assets\Scripts\Waypoint.cs" />
     <Compile Include="Assets\Scripts\MachineTurretProjectile.cs" />
@@ -82,7 +83,8 @@
     <Compile Include="Assets\Scripts\MachineProjectile.cs" />
     <Compile Include="Assets\Scripts\TankTurretProjectile.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
-    <Compile Include="Assets\Scripts\Achievement.cs" />
+    <Compile Include="Assets\Scripts\AchievementCard.cs" />
+    <Compile Include="Assets\Scripts\AchievementManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

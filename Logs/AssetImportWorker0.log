@@ -15,11 +15,11 @@ C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50542
+50597
 Successfully changed project path to: C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 82.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,209 +35,173 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002594 seconds.
+Registered in 0.002537 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.695 seconds
+- Completed reload, in  1.540 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001317 seconds.
+Registered in 0.001337 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 158.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 69.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.856 seconds
+- Completed reload, in  1.289 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.9 MB.
 System memory in use after: 88.9 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2313.
-Total: 2.569700 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.100100 ms MarkObjects: 1.945000 ms  DeleteObjects: 0.161300 ms)
+Total: 3.472500 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.936100 ms  DeleteObjects: 0.231000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/ScriptableObject/Achievements/Complete_20_waves.asset
-  artifactKey: Guid(2052e43aec18187428019a454e5e02b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Complete_20_waves.asset using Guid(2052e43aec18187428019a454e5e02b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccac740db3f7819d2cbdd80c59c30235') in 0.052643 seconds
-  Import took 0.058104 seconds .
+  path: Assets/Scripts/MachineTurretProjectile.cs
+  artifactKey: Guid(a9fc19231dd89be458c9b97db4d01099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MachineTurretProjectile.cs using Guid(a9fc19231dd89be458c9b97db4d01099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a79761ea07a987aaa0638cce8cedfe') in 0.102658 seconds
+  Import took 0.108747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000847 seconds.
-  path: Assets/ScriptableObject/Achievements/Complete_50_waves.asset
-  artifactKey: Guid(8d0f0b53390b2254eafd4b55ceffdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Complete_50_waves.asset using Guid(8d0f0b53390b2254eafd4b55ceffdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794f58ad1cccd898027562c7f818e6f0') in 0.046189 seconds
-  Import took 0.056164 seconds .
+  Time since last request: 3.438856 seconds.
+  path: Assets/Scripts/AchievementCard.cs
+  artifactKey: Guid(c090f5875ef5d774c9f18b6fda1fa8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AchievementCard.cs using Guid(c090f5875ef5d774c9f18b6fda1fa8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9993b5cf45af8dff4d1ca6c542519ef') in 0.030896 seconds
+  Import took 0.036098 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1851 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 2.480100 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.020700 ms  DeleteObjects: 0.142200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.851566 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be8d5a88d5747a2da969145c48f2fc1') in 0.543796 seconds
-  Import took 0.553929 seconds .
+  Time since last request: 165.466233 seconds.
+  path: Assets/Scripts/AchievementCard.cs
+  artifactKey: Guid(c090f5875ef5d774c9f18b6fda1fa8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AchievementCard.cs using Guid(c090f5875ef5d774c9f18b6fda1fa8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cabfcf4ce0fd75b09620e9e7a155f0') in 0.038873 seconds
+  Import took 0.047096 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1851 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 2.839100 ms (FindLiveObjects: 0.348900 ms CreateObjectMapping: 0.142100 ms MarkObjects: 2.200600 ms  DeleteObjects: 0.145300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Sprites/TowerDefensePlatform/PNG/Default size/Materials/towerDefense_tile017.mat
-  artifactKey: Guid(08ac0d37700c5994498614d0319fd754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TowerDefensePlatform/PNG/Default size/Materials/towerDefense_tile017.mat using Guid(08ac0d37700c5994498614d0319fd754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ebdfc12f9989c6a809d3dd8b6d17c1') in 1.257586 seconds
-  Import took 1.262813 seconds .
+  Time since last request: 27.130173 seconds.
+  path: Assets/Scripts/AchievementCard.cs
+  artifactKey: Guid(c090f5875ef5d774c9f18b6fda1fa8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AchievementCard.cs using Guid(c090f5875ef5d774c9f18b6fda1fa8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a946adf9d9a63292c6cc2cf63c3fe0c2') in 0.011502 seconds
+  Import took 0.017690 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1851 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 2.676500 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.230400 ms  DeleteObjects: 0.141600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be8d5a88d5747a2da969145c48f2fc1') in 0.114346 seconds
-  Import took 0.119835 seconds .
+  Time since last request: 219.446647 seconds.
+  path: Assets/Scripts/AchievementManager.cs
+  artifactKey: Guid(19f40402ab206be4fbb2dd4645f93b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AchievementManager.cs using Guid(19f40402ab206be4fbb2dd4645f93b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c7869911c3e848ea7fa866fd394a5a') in 0.039198 seconds
+  Import took 0.055247 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 107.924971 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20.asset
-  artifactKey: Guid(886b5b3b861db094baf81d5a6f79f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20.asset using Guid(886b5b3b861db094baf81d5a6f79f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925e1beccc75ea734751df2dcdbaa9b8') in 0.027330 seconds
-  Import took 0.034334 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.595 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1852 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 19.037435 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20.asset
-  artifactKey: Guid(886b5b3b861db094baf81d5a6f79f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20.asset using Guid(886b5b3b861db094baf81d5a6f79f0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddeb91f11043df1960f9b25c6d2382d') in 0.018328 seconds
-  Import took 0.024748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.902699 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20 1.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20 1.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408bfc72cf68d370bf991a849d925a3e') in 0.045257 seconds
-  Import took 0.053719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.571960 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20 2.asset
-  artifactKey: Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20 2.asset using Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca2837b2356a81f78b0160fd9d7d9e1') in 0.034101 seconds
-  Import took 0.043123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002027 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20 2.asset
-  artifactKey: Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20 2.asset using Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca2837b2356a81f78b0160fd9d7d9e1') in 0.013051 seconds
-  Import took 0.020484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.569392 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20 1.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20 1.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2131f555a855210b1766ff128df5bc10') in 0.010788 seconds
-  Import took 0.020560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005779 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20 1.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20 1.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2131f555a855210b1766ff128df5bc10') in 0.013679 seconds
-  Import took 0.020868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.803879 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_50.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_50.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a93bd8cce69638981a6182fa4f1c5c') in 0.037847 seconds
-  Import took 0.044635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.128052 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_50.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_50.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3695710f4e44d15ccbb9cf0414df0d1') in 0.036937 seconds
-  Import took 0.045023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.040204 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_20 2.asset
-  artifactKey: Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_20 2.asset using Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dce5cf5917a5af0cffe164a261917c6') in 0.049930 seconds
-  Import took 0.064058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.125242 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_100.asset
-  artifactKey: Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_100.asset using Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66621bb28275c4698aa623cc0229752b') in 0.023189 seconds
-  Import took 0.054795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.543769 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_50.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_50.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bea028056600c1a47af09ae446b6a91') in 0.035769 seconds
-  Import took 0.049915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.089597 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_100.asset
-  artifactKey: Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_100.asset using Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eed76283221161c896ff8f4eb23852a') in 0.033836 seconds
-  Import took 0.041592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.693229 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_50.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_50.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f3099e1c816c2466807dc13a2bff8c') in 0.099021 seconds
-  Import took 0.127011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.515420 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_100.asset
-  artifactKey: Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_100.asset using Guid(8e5b5c0d25a86da4b8eabb553f21e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55897f6130ff5f2fac64bccd5dd13b4d') in 0.060985 seconds
-  Import took 0.071556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.840021 seconds.
-  path: Assets/ScriptableObject/Achievements/Kill_50.asset
-  artifactKey: Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/Achievements/Kill_50.asset using Guid(5b9d3ecd79cc1d441a51e58f5a849b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4a8bb398c56638978be2dd73ac1079') in 0.019088 seconds
-  Import took 0.025390 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 194.616300 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 1.705600 ms MarkObjects: 192.316100 ms  DeleteObjects: 0.201600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

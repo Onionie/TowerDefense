@@ -17,10 +17,31 @@ public class AchievementCard : MonoBehaviour
 
     public void SetupAchievement(Achievement achievement)
     {
-       // AchievementLoaded = achievement;
+        AchievementLoaded = achievement;
         achievementImage.sprite = achievement.Sprite;
         title.text = achievement.Title;
         progress.text = achievement.GetProgress();
         reward.text = achievement.GoldReward.ToString();
+    }
+
+    private void UpdateProgress(Achievement achievementWithProgress)
+    {
+        if (AchievementLoaded == achievementWithProgress)
+        {
+            progress.text = achievementWithProgress.GetProgress();
+        }
+    }
+
+    private void OnEnable()
+    {
+
+        AchievementManager.OnProgressUpdated += UpdateProgress;
+     //   AchievementManager.OnAchievementUnlocked += AchievementUnlocked;
+    }
+
+    private void OnDisable()
+    {
+        AchievementManager.OnProgressUpdated -= UpdateProgress;
+     //   AchievementManager.OnAchievementUnlocked -= AchievementUnlocked;
     }
 }

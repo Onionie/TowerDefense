@@ -6,6 +6,7 @@ using System;
 public class AchievementManager : Singleton<AchievementManager>
 {
     public static Action<Achievement> OnAchievementUnlocked;
+    public static Action<Achievement> OnProgressUpdated;
 
     [SerializeField] private AchievementCard achievementCardPrefab;
     [SerializeField] private Transform achievementPanelContainer;

@@ -17,6 +17,7 @@ public class Achievement : ScriptableObject
     public void AddProgress(int amount)
     {
         CurrentProgress += amount;
+        AchievementManager.OnProgressUpdated?.Invoke(this);
         CheckUnlockStatus();
     }
 
@@ -36,5 +37,10 @@ public class Achievement : ScriptableObject
     public string GetProgress()
     {
         return $"{CurrentProgress}/{ProgressToUnlock}";
+    }
+
+    private void OnEnable()
+    {
+        CurrentProgress = 0;
     }
 }

@@ -11,7 +11,7 @@ public class AchievementCard : MonoBehaviour
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI progress;
     [SerializeField] private TextMeshProUGUI reward;
-    //  [SerializeField] private Button rewardButton;
+    [SerializeField] private Button rewardButton;
 
     public Achievement AchievementLoaded { get; set; }
 
@@ -32,16 +32,24 @@ public class AchievementCard : MonoBehaviour
         }
     }
 
+    private void AchievementUnlocked(Achievement achievement)
+    {
+        if (AchievementLoaded == achievement)
+        {
+            rewardButton.interactable = true;
+        }
+    }
+
     private void OnEnable()
     {
 
         AchievementManager.OnProgressUpdated += UpdateProgress;
-     //   AchievementManager.OnAchievementUnlocked += AchievementUnlocked;
+        AchievementManager.OnAchievementUnlocked += AchievementUnlocked;
     }
 
     private void OnDisable()
     {
         AchievementManager.OnProgressUpdated -= UpdateProgress;
-     //   AchievementManager.OnAchievementUnlocked -= AchievementUnlocked;
+        AchievementManager.OnAchievementUnlocked -= AchievementUnlocked;
     }
 }

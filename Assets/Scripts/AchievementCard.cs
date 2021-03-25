@@ -28,21 +28,47 @@ public class AchievementCard : MonoBehaviour
     {
         if (AchievementLoaded == achievementWithProgress)
         {
-            progress.text = achievementWithProgress.GetProgress();
+            LoadAchievementProgress();
         }
     }
+
+    private void LoadAchievementProgress()
+    {
+        if (AchievementLoaded.IsUnlocked)
+        {
+            progress.text = AchievementLoaded.GetProgressCompleted();
+        }
+        else
+        {
+            progress.text = AchievementLoaded.GetProgress();
+        }
+    }
+
+    private void CheckRewardButtonStatus()
+    {
+        if (AchievementLoaded.IsUnlocked)
+        {
+            rewardButton.interactable = true;
+        }
+        else
+        {
+            rewardButton.interactable = false;
+        }
+    }
+
 
     private void AchievementUnlocked(Achievement achievement)
     {
         if (AchievementLoaded == achievement)
         {
-            rewardButton.interactable = true;
+            CheckRewardButtonStatus();
         }
     }
 
     private void OnEnable()
     {
-
+        CheckRewardButtonStatus();
+        LoadAchievementProgress();
         AchievementManager.OnProgressUpdated += UpdateProgress;
         AchievementManager.OnAchievementUnlocked += AchievementUnlocked;
     }

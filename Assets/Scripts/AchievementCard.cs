@@ -24,6 +24,15 @@ public class AchievementCard : MonoBehaviour
         reward.text = achievement.GoldReward.ToString();
     }
 
+    public void GetReward()
+    {
+        if (AchievementLoaded.IsUnlocked)
+        {
+            CurrencySystem.Instance.AddCoins(AchievementLoaded.GoldReward);
+            rewardButton.gameObject.SetActive(false);
+        }
+    }
+
     private void UpdateProgress(Achievement achievementWithProgress)
     {
         if (AchievementLoaded == achievementWithProgress)

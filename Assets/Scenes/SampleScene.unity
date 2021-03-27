@@ -4145,7 +4145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dcbfac2701413b4bb34533eb770a207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3751768678207901500, guid: ef5fc013eb68286408f04a5c7bc108e6, type: 3}
+  prefab: {fileID: 5104591615858345731, guid: 548a17301ba94b147a1bb8623e5ddb9c, type: 3}
   poolSize: 10
 --- !u!1 &519420028
 GameObject:
@@ -7454,9 +7454,29 @@ PrefabInstance:
       propertyPath: maxRandomDelay
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1299755600647668193, guid: a37b902ba33ad6449b3743c8d7869d4d, type: 3}
+      propertyPath: enemyWave1To10Pooler
+      value: 
+      objectReference: {fileID: 546790632}
+    - target: {fileID: 1299755600647668193, guid: a37b902ba33ad6449b3743c8d7869d4d, type: 3}
+      propertyPath: enemyWave11To20Pooler
+      value: 
+      objectReference: {fileID: 463706474}
+    - target: {fileID: 1299755600647668193, guid: a37b902ba33ad6449b3743c8d7869d4d, type: 3}
+      propertyPath: enemyWave21To30Pooler
+      value: 
+      objectReference: {fileID: 2007240554}
+    - target: {fileID: 1299755600647668193, guid: a37b902ba33ad6449b3743c8d7869d4d, type: 3}
+      propertyPath: enemyWave31To40Pooler
+      value: 
+      objectReference: {fileID: 1977485300}
+    - target: {fileID: 1299755600647668193, guid: a37b902ba33ad6449b3743c8d7869d4d, type: 3}
+      propertyPath: enemyWave41To50Pooler
+      value: 
+      objectReference: {fileID: 600245002}
     - target: {fileID: 1299755600647668194, guid: a37b902ba33ad6449b3743c8d7869d4d, type: 3}
       propertyPath: m_Name
-      value: SpawnerDino
+      value: Spawner
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1299755600647668195, guid: a37b902ba33ad6449b3743c8d7869d4d, type: 3}
@@ -9247,7 +9267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dcbfac2701413b4bb34533eb770a207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3751768678207901500, guid: ef5fc013eb68286408f04a5c7bc108e6, type: 3}
+  prefab: {fileID: 183765836437360255, guid: f92de22973fb4e444aa92f1535efec94, type: 3}
   poolSize: 10
 --- !u!1 &1994764066
 GameObject:
@@ -9447,7 +9467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dcbfac2701413b4bb34533eb770a207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3751768678207901500, guid: ef5fc013eb68286408f04a5c7bc108e6, type: 3}
+  prefab: {fileID: 8038374192652607314, guid: 377e4395f80625c4a9540cab9db0678f, type: 3}
   poolSize: 10
 --- !u!1001 &2010952946
 PrefabInstance:

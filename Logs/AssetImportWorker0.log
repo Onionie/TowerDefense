@@ -1,0 +1,107 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 7944 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64156
+Successfully changed project path to: C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 87.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Oniel Gutierrez/Desktop/Unity/Tower Defense/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   
+    VRAM:     2048 MB
+    Driver:   20.19.15.4642
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002649 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.864 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001480 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 6.990900 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.226300 ms MarkObjects: 6.220700 ms  DeleteObjects: 0.191400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/UI/UI_Icon_PlayBackwards.png
+  artifactKey: Guid(703bbb61165c4c843b37d9e27be47d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/UI_Icon_PlayBackwards.png using Guid(703bbb61165c4c843b37d9e27be47d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8df981c0d1d008a6b23ef08be630238') in 0.396283 seconds
+  Import took 0.400826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 299.286812 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b0873290938d3100e768dc97d9037') in 0.061690 seconds
+  Import took 0.072909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.104369 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f03e598daf2c92f5fe51d786100c3') in 0.080381 seconds
+  Import took 0.087127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.605621 seconds.
+  path: Assets/Tilemap/BrushTrees.asset
+  artifactKey: Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/BrushTrees.asset using Guid(2830ce2ebcd532546a3a16d4b9d81f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86eaf4aaebfc9feefcbfb75028bf081') in 0.039316 seconds
+  Import took 0.052149 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

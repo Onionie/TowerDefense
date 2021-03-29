@@ -27,6 +27,20 @@ public class UIManager : Singleton<UIManager>
         lifesText.text = LevelManager.Instance.TotalLives.ToString();
         currentWavetext.text = $"Wave {LevelManager.Instance.CurrentWave}";
     }
+    public void SlowerTime()
+    {
+        Time.timeScale = 0.5f;
+    }
+
+    public void ResumeTime()
+    {
+        Time.timeScale = 1f;
+    }
+
+    public void FasterTime()
+    {
+        Time.timeScale = 2.5f;
+    }
 
     public void OpenAchievementPanel(bool status)
     {

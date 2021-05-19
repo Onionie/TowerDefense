@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{689D9C60-2577-4B28-C05E-EFF5B7059F6B}</ProjectGuid>
+    <ProjectGuid>{87E6F244-EC0C-8B7E-CB07-B76919223773}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,7 +68,7 @@
     <Compile Include="Assets\Scripts\CurrencySystem.cs" />
     <Compile Include="Assets\Scripts\TurretShopManager.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
-    <Compile Include="Assets\Scripts\WaypointEditor.cs" />
+    <Compile Include="Assets\Scripts\AchievementManager.cs" />
     <Compile Include="Assets\Scripts\EnemyHealthBar.cs" />
     <Compile Include="Assets\Scripts\TurretSetting.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Compile Include="Assets\Scripts\EnemyFX.cs" />
     <Compile Include="Assets\Scripts\Achievement.cs" />
+    <Compile Include="Assets\Scripts\AchievementCard.cs" />
     <Compile Include="Assets\Scripts\Projectiles.cs" />
     <Compile Include="Assets\Scripts\Waypoint.cs" />
     <Compile Include="Assets\Scripts\MachineTurretProjectile.cs" />
@@ -83,8 +84,7 @@
     <Compile Include="Assets\Scripts\MachineProjectile.cs" />
     <Compile Include="Assets\Scripts\TankTurretProjectile.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
-    <Compile Include="Assets\Scripts\AchievementCard.cs" />
-    <Compile Include="Assets\Scripts\AchievementManager.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -766,11 +766,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{7FDA746E-84C7-60F6-F724-78391D307E89}</Project>
+      <Project>{388F9921-728C-6580-BD44-B846F5171237}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{F29CDBFC-1685-7CA7-EAC6-B8B4C9966D26}</Project>
+      <Project>{41DECE4B-0B69-1526-BBBF-C9CCB08AF2E8}</Project>
       <Name>Unity.2D.Tilemap.Extras.Editor</Name>
     </ProjectReference>
   </ItemGroup>

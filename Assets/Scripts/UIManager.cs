@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : Singleton<UIManager>
 {
@@ -9,6 +10,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private GameObject turretShopPanel;
     [SerializeField] private GameObject nodeUIPanel;
     [SerializeField] private GameObject achievementPanel;
+    //[SerializeField] private GameObject gameOverPanel;
 
 
     [Header("Text")]
@@ -18,6 +20,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI lifesText;
     [SerializeField] private TextMeshProUGUI totalCoinsText;
     [SerializeField] private TextMeshProUGUI currentWavetext;
+    //[SerializeField] private TextMeshProUGUI gameOverTotalCoinsText;
 
     private Node _currentNodeSelected;
 
@@ -40,6 +43,17 @@ public class UIManager : Singleton<UIManager>
     public void FasterTime()
     {
         Time.timeScale = 2.5f;
+    }
+
+    //public void ShowGameOverPanel()
+    //{
+    //    gameOverPanel.SetActive(true);
+    //    gameOverTotalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
+    //}
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void OpenAchievementPanel(bool status)

@@ -78,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1765817093
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f580ebe5a3f31c34db00c161b51f88a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -149,8 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBarPrefab: {fileID: 8736219801622073245, guid: c74fba937b599db429aca93d206785c1, type: 3}
   barPos: {fileID: 2570699132116325655}
-  initialHealth: 10
-  maxHealth: 10
+  initialHealth: 1100
+  maxHealth: 1100
 --- !u!114 &571908136954781743
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -131,7 +131,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1717994359
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 34f4983523f69094e9417e9b81021862, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPos: {fileID: 4071553991509904176}
   delayBtwAttacks: 0.2
-  damage: 2
+  damage: 1
   isDualMachine: 0
   spreadRange: 0
 --- !u!114 &4071553993041907243
@@ -240,7 +240,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 6
 --- !u!114 &4071553993041907239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeInitialCost: 15
   upgradeCostIncremental: 10
-  damageIncremental: 0
+  damageIncremental: 1
   delayReduce: 0.1
   sellPert: 0.5
 --- !u!1 &4071553993228695649
@@ -327,7 +327,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1717994359
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e09758071753a624785f1ca7b3c05ba4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

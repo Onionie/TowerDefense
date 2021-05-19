@@ -48,6 +48,9 @@ TagManager:
   - name: Enemy
     uniqueID: 1765817093
     locked: 0
+  - name: HealthBar
+    uniqueID: 2687842645
+    locked: 0
   - name: Turrets
     uniqueID: 1717994359
     locked: 0
